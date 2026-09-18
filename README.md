@@ -11,102 +11,258 @@ The source should correlate relational or chiral structure, not preassign classi
 Already established upstream:
 
 - Native six-axis analyzer geometry exists.
-- Distinct analyzer projectors satisfy exact overlap 1/5.
-- The corresponding local observables have Bell-capable CHSH operator geometry.
-- The exact CHSH operator norm is
+- Its signed conference matrix satisfies
 
-    2 sqrt(41) / 5 > 2.
+    C^2 = 5 I.
 
-- Local coherent transducer prototypes are normalized.
-- Their complete effects have native axis/plane form.
-- The current local instrument is unsharp.
-- Classical inaccessible history with setting-independent local response functions remains Bell-local.
-- A protected complex two-component Hilbert carrier exists.
-- Full face gluing is being developed separately in Program 1.
+- The selected three-dimensional analyzer sector has Gram kernel
 
-## Primary theorem target
+    G_plus = I + C/sqrt(5).
 
-Construct a native joint preparation
+- Native projective switching symmetry forces zero one-wing signed means.
+- A pre-setting source receipt isolates the heralded h=1 EPR branch.
+- The canonical joint preparation is the exchange-odd line with projector
 
-    Psi_AB
+    P_odd = (I-X)/2.
 
-on one common carrier such that Alice and Bob receive local boundary presentations of the same joint relation.
+- The same projector has the exact quaternionic form
 
-For local setting pairs define the native analyzer pair-planes
+    P_odd =
+      (I + K1 tensor K1
+         + K2 tensor K2
+         + K3 tensor K3) / 4.
 
-    W_A
-    W_B
+- The canonical joint contraction is
 
-and their induced local complex structures
+    Gamma(A,B) = Tr[P_odd (A tensor B)].
 
-    J_A
-    J_B.
+- On traceless local observables,
 
-Test a relational source condition such as
+    Gamma(A,B) = -1/2 Tr(AB).
 
-    (J_A tensor J_B) Psi_AB = -Psi_AB
+- Native analyzer geometry therefore fixes the distinct-setting visibility to
 
-without inserting the desired Bell answer by hand.
+    v = 1/sqrt(5).
 
-## Local apparatus requirements
+- For binary outcomes the joint algebraic weights are uniquely determined:
 
-Alice and Bob must have independently selectable local instruments.
+    w_ab = (1 + a b Gamma) / 4.
 
-Each complete instrument must retain all outputs, including clean, nonclean, unfinished, or null branches.
+- The frozen native quartet gives
 
-No remote setting may appear in the other party's local transition rule.
+    CHSH = 1 + 3/sqrt(5) > 2.
 
-No postselection may be used to manufacture the final Bell statistic.
+- No setting-independent positive mixture of preexisting local binary answer
+  tables can reproduce this joint table.
 
-## Bell gate
+## Algebraic EPR assembly lock
 
-The completed common-domain experiment must satisfy
+Program 02 has closed its algebraic EPR assembly.
 
-    P(a|x,y) = P(a|x)
-    P(b|x,y) = P(b|y)
+The native chain is
 
-and
+    common-domain preparation
+      -> pre-setting herald h
+      -> h=1 canonical antisymmetric preparation
+      -> P_odd=(I-X)/2
+      -> Gamma(A,B)=Tr[P_odd(A tensor B)]
+      -> Gamma(A,B)=-1/2 Tr(AB)
+      -> native six-axis Gram geometry
+      -> v=1/sqrt(5)
+      -> zero local signed means
+      -> unique binary algebraic weights
+      -> exact half marginals
+      -> CHSH=1+3/sqrt(5).
 
-    S_CHSH > 2.
+The final assembly certificate is
 
-For an unbiased equal-visibility local instrument
+    epr_algebraic_assembly_lock_042.
 
-    M_i = eta O_i,
+## Native joint preparation
 
-the current analyzer geometry requires
+The herald is fixed before analyzer settings are chosen.
 
-    eta > (25/41)^(1/4)
+The h=1 branch carries the canonical exchange-odd joint line. Its projector is
 
-for Bell violation.
+    P_odd = (I-X)/2.
 
-## Questions
+This is exactly equal to
 
-1. What native carrier prepares Psi_AB?
-2. Is Hilbert chirality the correct joint source variable?
-3. How does Program 1 face gluing deliver the local boundary Hilbert states?
-4. Can switched write/contact/return dynamics cross the Bell visibility threshold?
-5. Does the complete instrument remain nonsignalling without postselection?
-6. Can the finite theory derive the weighting rule rather than merely assume squared-norm frequencies?
+    P_odd =
+      (I + K1 tensor K1
+         + K2 tensor K2
+         + K3 tensor K3) / 4.
 
-## Success condition
+The joint object is therefore intrinsic to the common preparation geometry and
+is not assembled from separate local answer tables after settings are chosen.
 
-A finite theorem of the form
+## Joint contraction law
 
-    one native joint preparation
-      + two complete local transducers
-      -> nonsignalling joint receipts
-      -> CHSH > 2
+The canonical projector supplies the exact bilinear joint operator contraction
 
-with no Bell-local classical factorization.
+    Gamma(A,B)
+      =
+    Tr[P_odd (A tensor B)].
 
-## Failure condition
+For arbitrary 2x2 local matrices,
 
-The strong program fails if every native joint preparation and complete local instrument admits a setting-independent Bell-local factorization, or if Bell violation requires remote-setting dependence, postselection, or an inserted target probability law.
+    Gamma(A,B)
+      =
+    1/2 [Tr(A)Tr(B) - Tr(AB)].
 
-## Boundary
+On traceless local observables this reduces to
 
-Operator Bell capacity is already known.
+    Gamma(A,B)
+      =
+    -1/2 Tr(AB).
 
-This program must realize the complete experiment on one common domain.
+For normalized Pauli directions this is the negative Euclidean inner product.
 
-No claim of empirical EPR correspondence is made until preparation, interaction, readout, normalization, and observed-frequency interpretation are all connected.
+## Native analyzer geometry
+
+The six native analyzer lines are governed by a signed conference matrix C with
+
+    C^2 = 5 I.
+
+Its two eigenspaces have dimension three.
+
+For the selected B_plus3 sector,
+
+    G_plus = I + C/sqrt(5).
+
+Hence the native joint contraction gives
+
+    Gamma_ii = -1
+
+and, for distinct settings,
+
+    Gamma_ij = -S_ij/sqrt(5).
+
+Thus the native visibility is
+
+    v = 1/sqrt(5).
+
+No visibility parameter is fitted.
+
+## Binary algebraic measure
+
+Native projective switching symmetry forces the one-wing signed means to zero.
+
+For binary outcomes a,b in {+1,-1}, normalization, the two zero local means,
+and the joint product mean Gamma form a full-rank four-equation moment system.
+
+Its unique solution is
+
+    w_ab
+      =
+    (1 + a b Gamma) / 4.
+
+For the frozen quartet,
+
+    E_00 = -1
+    E_01 = -1/sqrt(5)
+    E_10 = -1/sqrt(5)
+    E_11 = +1/sqrt(5).
+
+The corresponding weights are positive and normalized.
+
+Each local marginal is exactly one half, so the algebraic table is
+nonsignalling.
+
+The resulting Bell value is
+
+    CHSH
+      =
+    1 + 3/sqrt(5)
+      =
+    2.341640786499874...
+
+which exceeds the Bell-local bound 2.
+
+## Bell-local obstruction
+
+Every deterministic local binary answer table
+
+    (A0,A1,B0,B1)
+
+has
+
+    |CHSH| = 2.
+
+Any setting-independent positive mixture of such tables therefore obeys
+
+    |CHSH| <= 2.
+
+The native algebraic table lies outside that local polytope.
+
+The missing structure is therefore not a hidden census of preexisting local
+answers.
+
+## What is closed
+
+Program 02 has closed:
+
+- the common-domain heralded preparation interface,
+- the canonical antisymmetric joint object,
+- the native joint operator contraction,
+- the native 1/sqrt(5) visibility,
+- zero one-wing signed means,
+- the unique positive normalized binary algebraic measure,
+- exact nonsignalling marginals,
+- and an exact CHSH value above 2.
+
+No target probability table is inserted as a derivation input.
+
+No Bell-local hidden answer weighting reproduces the result.
+
+## Remaining interfaces
+
+Two interfaces remain explicit.
+
+### Common-adjoint face binding
+
+The native analyzer sector is connected to the Program-01 face adjoint through
+the previously declared conditional common-adjoint interface.
+
+Program 02 does not reopen that calibration problem.
+
+### Operational frequency correspondence
+
+The finite construction derives a unique positive normalized algebraic measure
+
+    w_ab.
+
+It does not yet identify that measure with a microscopic repeated-trial
+counting law.
+
+This is an operational correspondence problem rather than unresolved freedom
+in the EPR table.
+
+## Program boundary
+
+No further internal weighting hunt is required in Program 02.
+
+In particular, do not return to:
+
+- source-state counting as a replacement for the joint measure,
+- preexisting local binary answer tables,
+- coherent-pulse optimization,
+- visibility fitting,
+- or further parity labels.
+
+Future work belongs in a separate operational-correspondence or
+instrument-realization program.
+
+## Final status
+
+    PROGRAM 02 ALGEBRAIC EPR ASSEMBLY: CLOSED
+
+Canonical result:
+
+    P_odd
+      -> Gamma
+      -> w_ab
+      -> CHSH = 1 + 3/sqrt(5) > 2.
+
+The remaining work is correspondence, not reconstruction of the algebraic EPR
+table.
