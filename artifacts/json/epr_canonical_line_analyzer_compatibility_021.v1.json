@@ -1,0 +1,112 @@
+{
+  "artifact_id": "epr_canonical_line_analyzer_compatibility_021",
+  "artifact_sha256": "1a4016c22ae96e196de7633b44728540ce3c4d02a725c03b2dcfe642b6669bfd",
+  "audit_pass": true,
+  "boundary": {
+    "Born_rule_not_derived": true,
+    "arbitrary_relative_frame_not_inserted": true,
+    "canonical_EPR_line_retained": true,
+    "coherent_instrument_integration_paused": true,
+    "common_pair_frame_Bell_violation": false,
+    "no_signaling_not_yet_tested": true,
+    "operator_capacity_not_confused_with_prepared_state_score": true,
+    "operator_capacity_retained": true,
+    "outcome_relabeling_Bell_violation": false,
+    "pairwise_qubit_normal_form_exists": true,
+    "relative_Alice_Bob_analyzer_frame_not_yet_derived": true,
+    "zero_wedge_branch_still_retained": true
+  },
+  "canonical_EPR_line": {
+    "CHSH_eigenvalue_in_common_pair_frame": "6/5",
+    "attains_operator_norm": false,
+    "representative": "|01>-|10>",
+    "violates_CHSH_in_declared_common_pair_frame": false
+  },
+  "checks": {
+    "Audit019_nonzero_branch_is_canonical_EPR_line": true,
+    "Audit019_passed": true,
+    "Audit020_operator_CHSH_capacity": true,
+    "Audit020_overlap_is_one_fifth": true,
+    "Audit020_passed": true,
+    "CHSH_operator_is_symmetric": true,
+    "CHSH_operator_norm_squared_164_over_25": true,
+    "CHSH_squared_164_eigenspace_rank2": true,
+    "CHSH_squared_36_eigenspace_rank2": true,
+    "CHSH_squared_minimal_polynomial": true,
+    "PR_rank1": true,
+    "PZ_rank1": true,
+    "R_is_Hermitian_involution": true,
+    "R_trace_zero": true,
+    "Z_is_Hermitian_involution": true,
+    "Z_trace_zero": true,
+    "canonical_CHSH_is_6_over_5": true,
+    "canonical_line_does_not_attain_operator_norm": true,
+    "canonical_line_is_CHSH_eigenline": true,
+    "canonical_line_nonzero": true,
+    "commutator_square_minus_64_over_25": true,
+    "commutator_trace_square_minus_128_over_25": true,
+    "face_complex_dimension_2": true,
+    "maximum_sign_relabelled_CHSH_is_2": true,
+    "no_sign_relabeling_violates_CHSH": true,
+    "pair_projector_overlap_one_fifth": true,
+    "sign_relabeling_absolute_profile": true,
+    "singlet_RR_minus1": true,
+    "singlet_RZ_3_over_5": true,
+    "singlet_ZR_3_over_5": true,
+    "singlet_ZZ_minus1": true,
+    "sixteen_sign_relabelings_tested": true
+  },
+  "earned_statement": "The native analyzer pair geometry admits an exact two-dimensional qubit normal form with rank-one projector overlap 1/5 and CHSH operator norm 2 sqrt(41)/5. However, the canonical antisymmetric EPR line prepared by the Program-02 nonzero wedge branch is not the maximizing eigenline of that CHSH operator in the common pair frame. It is an exact eigenline with eigenvalue 6/5. Exhausting all sixteen independent local binary outcome-sign relabelings raises the absolute CHSH value at most to 2. Therefore inherited operator Bell capacity cannot yet be promoted to Bell violation for the canonical prepared line. A native relative analyzer-frame or different admissible setting quartet is load-bearing.",
+  "local_outcome_relabeling_stress": {
+    "Bell_violation_found": false,
+    "absolute_value_profile": {
+      "2": 8,
+      "6/5": 8
+    },
+    "maximum_absolute_CHSH": "2",
+    "sign_choice_count": 16,
+    "signed_value_profile": {
+      "-2": 4,
+      "-6/5": 4,
+      "2": 4,
+      "6/5": 4
+    }
+  },
+  "next_gate": "Use only native relative-frame information to test admissible Alice/Bob analyzer pair alignments and setting quartets against the canonical antisymmetric EPR line. Do not optimize over arbitrary independent SO(3) or U(2) frame choices. Determine whether any native relative alignment gives CHSH greater than two; if none does, the current analyzer geometry is incompatible with the prepared EPR line.",
+  "operator_capacity": {
+    "Bell_capable": true,
+    "CHSH_operator": "Z tensor (Z+R) + R tensor (Z-R)",
+    "operator_norm": "2 sqrt(41) / 5",
+    "squared_spectrum": [
+      "36/25",
+      "164/25"
+    ]
+  },
+  "pairwise_qubit_normal_form": {
+    "R": [
+      [
+        "-3/5",
+        "4/5"
+      ],
+      [
+        "4/5",
+        "3/5"
+      ]
+    ],
+    "Z": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ],
+    "commutator_square": "-64/25 I",
+    "commutator_trace_square": "-128/25",
+    "rank_one_projector_overlap": "1/5"
+  },
+  "verdict": "canonical_antisymmetric_EPR_line_does_not_realize_the_inherited_analyzer_CHSH_operator_capacity_in_the_common_pair_normal_form_and_local_outcome_relabeling_cannot_raise_it_above_two",
+  "version": 1
+}
