@@ -1,0 +1,84 @@
+{
+  "artifact_id": "epr_algebraic_assembly_lock_042",
+  "artifact_sha256": "b9031b945ba75059ac67ad4fac3df7d758d3c6454ac560d89dc42d2ffcdaa084",
+  "assembly_chain": [
+    "native common-domain preparation",
+    "pre-setting h receipt",
+    "h=1 canonical antisymmetric preparation",
+    "canonical exchange-odd projector P_odd",
+    "native joint contraction Gamma",
+    "native six-axis Gram geometry",
+    "zero local signed marginals",
+    "unique positive binary algebraic weights",
+    "exact no-signaling marginals",
+    "CHSH=1+3/sqrt(5)"
+  ],
+  "audit_pass": true,
+  "checks": {
+    "035_passes": true,
+    "036_passes": true,
+    "037_passes": true,
+    "038_passes": true,
+    "039_passes": true,
+    "040b_passes": true,
+    "041_passes": true,
+    "Bell_CHSH_exceeds_two": true,
+    "binary_moment_system_full_rank": true,
+    "binary_weight_formula_unique": true,
+    "common_adjoint_binding_remains_conditional": true,
+    "commutant_dimension_two": true,
+    "conference_identity": true,
+    "correlation_reduced_to_one_visibility": true,
+    "exact_CHSH_matches_native_kernel": true,
+    "frequency_bridge_remains_open": true,
+    "herald_is_pre_setting": true,
+    "joint_contraction_is_native_trace_kernel": true,
+    "local_table_bound_is_two": true,
+    "native_analyzer_sector_dimension_three": true,
+    "native_joint_operator_bilinearity_closed": true,
+    "operator_visibility_is_native": true,
+    "rank3_geometry_selects_visibility": true,
+    "sealed_downstream_chain_identifies_h1_herald": true,
+    "target_outside_local_answer_polytope": true,
+    "weights_positive_and_normalized": true,
+    "zero_local_marginal_space": true
+  },
+  "classical_boundary": {
+    "maximum_CHSH": 2,
+    "preexisting_local_answer_table_model": "excluded",
+    "setting_independent_positive_mixture": "excluded for target table"
+  },
+  "closed": {
+    "canonical_joint_antisymmetric_object": true,
+    "exact_CHSH_above_two": true,
+    "native_joint_operator_bilinearity": true,
+    "native_visibility": true,
+    "pre_setting_herald": true,
+    "unique_positive_binary_algebraic_measure": true,
+    "zero_local_marginals": true
+  },
+  "earned_statement": "Program 02 now has a complete algebraic EPR assembly. A native pre-setting herald isolates the canonical antisymmetric joint preparation without outcome-dependent postselection. The canonical exchange-odd projector supplies an exact joint contraction Gamma(A,B). On traceless local observables this contraction is minus the normalized trace inner product. Native six-axis geometry fixes the distinct-setting visibility to 1/sqrt(5), while native projective symmetry forces zero one-wing signed means. For binary outcomes these moments uniquely determine positive normalized weights w_ab=(1+a*b*Gamma)/4, giving exact half marginals, no signaling, and CHSH 1+3/sqrt(5)>2. No positive setting-independent mixture of preexisting local binary answer tables can reproduce the table. The remaining interfaces are operational frequency correspondence and the previously declared conditional common-adjoint face binding.",
+  "exact_core": {
+    "CHSH": "1+3/sqrt(5)",
+    "CHSH_numeric": 2.341640786499874,
+    "binary_weight": "w_ab=(1+a*b*Gamma)/4",
+    "joint_contraction": "Gamma(A,B)=Tr[P_odd(A tensor B)]",
+    "native_analyzer_Gram": "I+C/sqrt(5)",
+    "source_projector": "P_odd=(I-X)/2",
+    "traceless_joint_kernel": "Gamma(A,B)=-1/2 Tr(AB)",
+    "visibility": "1/sqrt(5)"
+  },
+  "next_program_boundary": "Do not continue searching Program 02 for hidden source counts or alternative weighting laws. Treat the algebraic EPR construction as assembled. Move frequency correspondence or empirical instrument realization into a separate program.",
+  "open_interfaces": {
+    "common_adjoint_face_binding": "conditional interface retained from earlier Program-02 analyzer-face work",
+    "operational_frequency_correspondence": "registered repeated-trial frequency has not been identified with the canonical algebraic weight"
+  },
+  "status": {
+    "Program02_algebraic_EPR_assembly": "closed",
+    "face_analyzer_correspondence": "conditional",
+    "further_internal_weight_hunt_required": false,
+    "physical_frequency_correspondence": "open"
+  },
+  "verdict": "heralded_native_algebraic_EPR_assembly_closed_with_unique_positive_binary_measure_exact_no_signaling_marginals_and_CHSH_1_plus_3_over_sqrt5_while_operational_frequency_and_common_adjoint_correspondence_remain_explicit_interfaces",
+  "version": 1
+}
