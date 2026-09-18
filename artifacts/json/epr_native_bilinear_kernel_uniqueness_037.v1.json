@@ -1,0 +1,80 @@
+{
+  "artifact_id": "epr_native_bilinear_kernel_uniqueness_037",
+  "artifact_sha256": "4619144652a0dced96a37524bbcc9cd642d3b2cd40fc7a80ef39b10f5e53624d",
+  "audit_pass": true,
+  "bilinear_consequence": {
+    "correlation": "E(i,j)=-<n_i,n_j>",
+    "distinct_setting_correlation": "E(i,j)=-S_ij/sqrt(5)",
+    "fixed_scale": -1,
+    "frozen_quartet_CHSH": "1+3/sqrt(5)",
+    "frozen_quartet_CHSH_numeric": 2.341640786499874,
+    "hypothesis": "heralded receipt correlation extends bilinearly over the native B_plus3 analyzer carrier and is invariant under the common native switching action",
+    "same_axis_condition": "E(n_i,n_i)=-1",
+    "unique_kernel_up_to_scale": "native inner product",
+    "visibility": "1/sqrt(5)",
+    "visibility_numeric": 0.4472135954999579
+  },
+  "boundary": {
+    "Audit035_target_used_as_selector": false,
+    "Audit036_one_parameter_reduction_inherited": true,
+    "Born_frequency_rule_used": false,
+    "bilinear_receipt_extension_derived_from_finite_mechanics": false,
+    "common_adjoint_face_binding_still_conditional": true,
+    "native_receipt_frequency_law_fully_closed": false,
+    "native_visibility_numerically_fitted": false,
+    "remaining_gate": "derive native bilinear receipt extension"
+  },
+  "checks": {
+    "Audit036_leaves_one_visibility_parameter": true,
+    "Audit036_passes": true,
+    "C_in_commutant": true,
+    "C_squared_equals_5I": true,
+    "C_trace_zero": true,
+    "I_and_C_linearly_independent": true,
+    "all_signed_switchings_commute_with_C": true,
+    "all_signed_switchings_orthogonal": true,
+    "all_signed_switchings_preserve_C": true,
+    "bilinear_extension_forces_visibility_1_over_sqrt5": true,
+    "commutant_exactly_span_I_C_by_dimension": true,
+    "derived_CHSH_exceeds_2": true,
+    "derived_visibility_exceeds_Bell_threshold": true,
+    "full_commutant_dimension_2": true,
+    "identity_in_commutant": true,
+    "invariant_bilinear_form_unique_up_to_scale": true,
+    "native_plus_Gram_diagonal_one": true,
+    "native_plus_Gram_offdiagonal_magnitude_one_over_sqrt5": true,
+    "plus_sector_commutant_scalar": true,
+    "plus_sector_dimension_3": true,
+    "projective_switching_group_order_60": true,
+    "same_axis_anticorrelation_fixes_bilinear_scale_minus_one": true
+  },
+  "commutant": {
+    "ambient_matrix_dimension": 36,
+    "basis_by_dimension": [
+      "I",
+      "C"
+    ],
+    "constraint_rank": 34,
+    "dimension": 2,
+    "restriction_to_B_plus3": "scalar"
+  },
+  "conference_system": {
+    "B_plus3_Gram": "I + C/sqrt(5)",
+    "eigenspaces": {
+      "+sqrt(5)": 3,
+      "-sqrt(5)": 3
+    },
+    "identity": "C^2=5I",
+    "matrix_size": 6,
+    "trace": 0
+  },
+  "earned_statement": "The six native analyzer lines define an exact symmetric conference matrix C with C^2=5I and two three-dimensional eigenspaces. The sixty native signed projective switchings are orthogonal and preserve C. Solving the exact 36-variable matrix commutant gives dimension two, and I and C span it. Consequently the commutant restricts to scalars on either three-dimensional eigenspace, so every invariant bilinear form on the native B_plus3 analyzer carrier is proportional to the native inner product. If the heralded receipt correlation extends bilinearly over that carrier, same-axis antisymmetry fixes the scale to minus one and forces the Audit-036 visibility v=1/sqrt(5), hence the frozen quartet CHSH value 1+3/sqrt(5). The numerical target is not fitted. The remaining native gate is the provenance of bilinear receipt extension itself.",
+  "next_gate": "Test whether the already-constructed finite face/receipt apparatus supplies an additive or bilinear extension of signed local receipts over the native three-dimensional analyzer carrier. If yes, combine that result with this uniqueness theorem to close v without invoking Born weighting. If not, leave the visibility law open.",
+  "projective_symmetry": {
+    "all_switchings_orthogonal": true,
+    "all_switchings_preserve_C": true,
+    "switching_count": 60
+  },
+  "verdict": "the_native_60_element_projective_switching_system_has_exact_commutant_span_I_C_and_each_three_dimensional_conference_eigenspace_has_scalar_commutant_so_any_invariant_bilinear_receipt_correlation_is_forced_to_the_native_inner_product_and_same_axis_antisymmetry_then_fixes_v_to_1_over_sqrt5",
+  "version": 1
+}
