@@ -1,0 +1,75 @@
+{
+  "artifact_id": "epr_diagonal_quaternionic_ray_selector_005",
+  "artifact_sha256": "2367aba341b7e5cb9be62bc33c52e914f9fd3415d68e667c12a094f4c5377bec",
+  "audit_pass": true,
+  "boundary": {
+    "finite_selector_geometry_only": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_no_signaling_claim": true,
+    "no_singlet_probability_law_inserted": true,
+    "no_trial_weighting": true,
+    "ray_not_yet_declared_prepared": true,
+    "source_invariance_under_diagonal_face_axes_not_yet_derived": true
+  },
+  "checks": {
+    "D1_square_identity": true,
+    "D2_square_identity": true,
+    "D3_square_identity": true,
+    "K1_K2_equals_K3": true,
+    "K1_square_minus_I": true,
+    "K2_K3_equals_K1": true,
+    "K2_square_minus_I": true,
+    "K3_K1_equals_K2": true,
+    "K3_square_minus_I": true,
+    "alternating_ray_fixed_by_D1": true,
+    "alternating_ray_fixed_by_D2": true,
+    "alternating_ray_fixed_by_D3": true,
+    "alternating_ray_is_C_fixed": true,
+    "audit_003_compatibility_is_RP3": true,
+    "audit_003_passed": true,
+    "audit_004_passed": true,
+    "audit_004_unique_odd_ray": true,
+    "common_diagonal_quaternionic_fixed_real_dim_2": true,
+    "common_frame_neutral_ray_matches_004_odd_ray": true,
+    "compatibility_real_dimension_4": true,
+    "compatible_common_diagonal_fixed_real_dim_1": true,
+    "diagonal_actions_commute": true,
+    "each_diagonal_axis_preserves_real_structure": true
+  },
+  "dimensions": {
+    "Audit003_compatibility_real_dimension": 4,
+    "common_diagonal_quaternionic_fixed_real_dimension": 2,
+    "compatible_common_diagonal_fixed_real_dimension": 1,
+    "compatible_common_diagonal_projective_ray_count": 1
+  },
+  "earned_statement": "The three quaternionic Program-01 face axes provide a finite common-frame neutrality test independent of the unresolved face/Weyl S3 axis-slot crosswalk. On the full complex joint fiber their simultaneous diagonal fixed space is one complex line. Intersecting with the Audit-003 Real compatibility locus leaves one real line, hence exactly one compatible projective ray. That ray is the same alternating exchange-odd ray isolated independently by Audit 004.",
+  "finite_face_frame": {
+    "algebra": "quaternionic fundamental SU(2) axes",
+    "axis_slot_S3_invariant": true,
+    "joint_actions": [
+      "K1 tensor K1",
+      "K2 tensor K2",
+      "K3 tensor K3"
+    ],
+    "local_generators": [
+      "K1 = i sigma_x",
+      "K2 = -i sigma_y",
+      "K3 = i sigma_z"
+    ]
+  },
+  "input_geometry": {
+    "Audit003_compatible_locus": "RP^3",
+    "Audit004_exchange_odd_frontier": "one compatible projective ray",
+    "ambient_joint_projective_space": "CP^3"
+  },
+  "next_gate": "Test whether the actual setting-independent native source preparation is neutral under the common quaternionic face-frame action, or independently selects odd factor-exchange parity. Either native selector would promote the unique ray from a symmetry candidate to a prepared joint state. Do not infer the selector from the ray's Bell properties.",
+  "ray": {
+    "exchange_parity": "odd",
+    "product_status": "non-product",
+    "projective_form": "[|01>-|10>]",
+    "representative": "i(|01>-|10>)"
+  },
+  "verdict": "within_the_earned_RP3_the_unique_ray_neutral_under_all_three_diagonal_quaternionic_face_axes_is_exactly_the_exchange_odd_alternating_ray",
+  "version": 1
+}
