@@ -1,0 +1,540 @@
+{
+  "analyzer_geometry": {
+    "adjoint_direction_inner_product_magnitude": "1/sqrt(5)",
+    "axes_per_sector": 6,
+    "candidate_face_observable": "O_i = n_i dot sigma",
+    "distinct_projective_line_overlap_squared": "1/5",
+    "native_character_sectors": [
+      "B_plus3",
+      "B_minus3"
+    ]
+  },
+  "artifact_id": "epr_native_six_axis_singlet_quartet_census_022",
+  "artifact_sha256": "02aa4284bcc0e6180bd42c2ec64be1b1df0afc1fa6b229b850c3345b9985ccb7",
+  "audit_pass": true,
+  "boundary": {
+    "Bell_capable_native_setting_quartets_exist": true,
+    "Born_frequency_law_not_derived": true,
+    "common_adjoint_coordinates_are_gauge": true,
+    "common_adjoint_lift_is_conditional_interface": true,
+    "complete_local_instrument_not_yet_bound_to_face_C2": true,
+    "complete_receipt_CHSH_not_yet_derived": true,
+    "native_relative_Alice_Bob_adjoint_frame_not_yet_derived": true,
+    "no_independent_continuous_frame_optimization": true,
+    "no_signaling_not_yet_tested": true,
+    "zero_wedge_branch_still_retained": true
+  },
+  "checks": {
+    "Audit019_passed": true,
+    "Audit020_passed": true,
+    "Audit021_passed": true,
+    "B_minus3_exact_CHSH_profile": true,
+    "B_minus3_max_is_1_plus_3_over_sqrt5": true,
+    "B_minus3_quartet_count_900": true,
+    "B_minus3_settings_are_0_through_5": true,
+    "B_minus3_violation_count_240": true,
+    "B_minus3_violations_have_exactly_one_shared_axis": true,
+    "B_plus3_exact_CHSH_profile": true,
+    "B_plus3_max_is_1_plus_3_over_sqrt5": true,
+    "B_plus3_quartet_count_900": true,
+    "B_plus3_settings_are_0_through_5": true,
+    "B_plus3_violation_count_240": true,
+    "B_plus3_violations_have_exactly_one_shared_axis": true,
+    "all_distinct_line_overlaps_are_exactly_one_fifth": true,
+    "canonical_nonzero_branch_is_EPR_line": true,
+    "census_uses_only_native_projective_Gram_data": true,
+    "character_sector_CHSH_profiles_match": true,
+    "character_sector_violation_counts_match": true,
+    "face_adjoint_dimension_3": true,
+    "max_CHSH_exceeds_2_exactly": true,
+    "no_continuous_CHSH_optimization_used": true,
+    "no_independent_Alice_Bob_rotation_inserted": true,
+    "six_axes_in_each_character_sector": true,
+    "two_native_character_sectors_present": true
+  },
+  "earned_statement": "The negative result of Audit 021 is specific to using the same native analyzer pair on both wings. Each native three-dimensional analyzer character sector carries six projective axes with exact pair overlap squared 1/5. Under a common adjoint lift of that native line system into the Program-01 face su(2), the canonical antisymmetric EPR line has correlations determined only by the analyzer Gram matrix. Exhausting all 900 ordered setting quartets with distinct settings on each wing and all sixteen local outcome-sign relabelings gives 240 Bell-capable quartets in each native character sector. The exact maximum is 1 + 3/sqrt(5), greater than two. Every violating quartet has exactly one native analyzer axis shared between Alice's and Bob's setting pairs. No continuous frame optimization is used.",
+  "next_gate": "Derive the finite native relative adjoint-frame relation between Alice and Bob from the G1800/Program-01 common boundary structure. Test that finite relative-frame set against the 240 Bell-capable native quartets. Do not introduce an arbitrary independent SO(3) rotation. If the common lift or another native relative alignment is admitted, proceed to construct the complete local face instrument and receipt weighting.",
+  "quartet_census": {
+    "local_outcome_sign_relabelings_per_quartet": 16,
+    "maximum": "1 + 3*sqrt(5)/5",
+    "maximum_alternate_form": "1 + 3/sqrt(5)",
+    "maximum_exceeds_2": true,
+    "quartets_per_sector": 900,
+    "requirements": "Alice settings distinct; Bob settings distinct; all ordered native choices tested",
+    "sector_results": {
+      "B_minus3": {
+        "max_CHSH": "1 + 3/5*sqrt(5)",
+        "max_CHSH_field_pair": [
+          "1",
+          "3/5"
+        ],
+        "max_examples": [
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              0,
+              3
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              0,
+              5
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              1,
+              3
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              1,
+              5
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              3,
+              0
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              3,
+              1
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              5,
+              0
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              5,
+              1
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              2
+            ],
+            "Bob": [
+              0,
+              4
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              -1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              2
+            ],
+            "Bob": [
+              0,
+              5
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              2
+            ],
+            "Bob": [
+              2,
+              4
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              -1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              2
+            ],
+            "Bob": [
+              2,
+              5
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          }
+        ],
+        "profile": {
+          "1 + 1/5*sqrt(5)": 240,
+          "1 + 3/5*sqrt(5)": 240,
+          "2": 60,
+          "2/5*sqrt(5)": 120,
+          "4/5*sqrt(5)": 240
+        },
+        "quartet_count": 900,
+        "shared_axis_profile": {
+          "0": 360,
+          "1": 480,
+          "2": 60
+        },
+        "violating_shared_axis_profile": {
+          "1": 240
+        },
+        "violation_count": 240
+      },
+      "B_plus3": {
+        "max_CHSH": "1 + 3/5*sqrt(5)",
+        "max_CHSH_field_pair": [
+          "1",
+          "3/5"
+        ],
+        "max_examples": [
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              0,
+              2
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              0,
+              4
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              1,
+              2
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              1,
+              4
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              2,
+              0
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              2,
+              1
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              4,
+              0
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              1
+            ],
+            "Bob": [
+              4,
+              1
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              2
+            ],
+            "Bob": [
+              0,
+              1
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              2
+            ],
+            "Bob": [
+              0,
+              3
+            ],
+            "outcome_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              2
+            ],
+            "Bob": [
+              1,
+              0
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          },
+          {
+            "Alice": [
+              0,
+              2
+            ],
+            "Bob": [
+              1,
+              2
+            ],
+            "outcome_signs": [
+              1,
+              -1,
+              1,
+              1
+            ],
+            "shared_axis_count": 1
+          }
+        ],
+        "profile": {
+          "1 + 1/5*sqrt(5)": 240,
+          "1 + 3/5*sqrt(5)": 240,
+          "2": 60,
+          "2/5*sqrt(5)": 120,
+          "4/5*sqrt(5)": 240
+        },
+        "quartet_count": 900,
+        "shared_axis_profile": {
+          "0": 360,
+          "1": 480,
+          "2": 60
+        },
+        "violating_shared_axis_profile": {
+          "1": 240
+        },
+        "violation_count": 240
+      }
+    },
+    "violating_quartet_structure": "exactly one analyzer axis is shared between the Alice and Bob setting pairs",
+    "violating_quartets_per_sector": 240
+  },
+  "relation_to_Audit021": {
+    "Audit021_same_pair_result": "max 2 under local outcome relabeling",
+    "new_result": "the same-pair quartet is a restricted subfamily; the full six-axis native setting census contains Bell-capable quartets for the canonical EPR line"
+  },
+  "state": {
+    "common_frame_invariance": "canonical antisymmetric line is invariant under common local SU(2) frame changes",
+    "projective_line": "[|01>-|10>]",
+    "source": "Audit 019 nonzero wedge branch"
+  },
+  "verdict": "canonical_antisymmetric_EPR_line_is_Bell_compatible_with_the_full_native_six_axis_geometry_under_a_common_adjoint_lift_with_240_of_900_native_setting_quartets_reaching_1_plus_3_over_sqrt5_greater_than_two",
+  "version": 1
+}
