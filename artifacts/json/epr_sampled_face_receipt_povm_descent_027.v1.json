@@ -1,0 +1,703 @@
+{
+  "artifact_id": "epr_sampled_face_receipt_povm_descent_027",
+  "artifact_sha256": "ea8cd95ae55003bc94d4230b2342fda928fa386401a559d0d36991a2d8d7e48e",
+  "audit_pass": true,
+  "binary_response_summary": {
+    "bias_formula": "bias = axis_pointer0 + plane_pointer0 - 1",
+    "contrast_formula": "contrast = axis_pointer0 - plane_pointer0",
+    "max_absolute_bias": 1.0,
+    "max_absolute_contrast": 0.07296147126218,
+    "max_contrast_calibration": {
+      "bias": -0.13365275831507994,
+      "contrast": 0.07296147126218,
+      "dimensionless_pulse": 2.0,
+      "model": "adjacency"
+    },
+    "observable_formula": "A_i = bias I + contrast n_i.sigma"
+  },
+  "boundary": {
+    "Audit019_zero_preparation_branch_still_retained": true,
+    "Born_frequency_law_derived": false,
+    "Luders_rule_inserted": false,
+    "all_four_local_receipts_retained": true,
+    "analyzer_sector_character": "chi_deck",
+    "continuous_all_time_scalar_law_derived": false,
+    "no_signaling_not_yet_tested": true,
+    "nonclean_outputs_retained": true,
+    "receipt_level_CHSH_not_yet_tested": true,
+    "sampled_face_qubit_POVM_constructed": true,
+    "sampled_numeric_response_only": true,
+    "state_update_instrument_constructed": false
+  },
+  "calibrations": [
+    {
+      "binary_observable": {
+        "bias": 1.0,
+        "contrast": 0.0,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 0.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "adjacency",
+      "pointer_0": {
+        "axis": 1.0,
+        "plane": 1.0
+      },
+      "pointer_1": {
+        "axis": 0.0,
+        "plane": 0.0
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 1.0,
+          "P_i_coefficient": 1.0
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.0,
+          "P_i_coefficient": 0.0
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.0,
+          "P_i_coefficient": 0.0
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.0,
+          "P_i_coefficient": 0.0
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.98048727858453,
+        "contrast": 1.2959074989993269e-05,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 0.1,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "adjacency",
+      "pointer_0": {
+        "axis": 0.99025011882976,
+        "plane": 0.99023715975477
+      },
+      "pointer_1": {
+        "axis": 0.0097498811702437,
+        "plane": 0.009762840245225
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.94170519915394,
+          "P_i_coefficient": 0.93869939775648
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.0096412418488795,
+          "P_i_coefficient": 0.0096206011974538
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.048531960600832,
+          "P_i_coefficient": 0.051550721073274
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.00012159839634558,
+          "P_i_coefficient": 0.00012927997278994
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.8928930066360001,
+        "contrast": 0.00044146539743994406,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 0.25,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "adjacency",
+      "pointer_0": {
+        "axis": 0.94666723601672,
+        "plane": 0.94622577061928
+      },
+      "pointer_1": {
+        "axis": 0.053332763983282,
+        "plane": 0.053774229380718
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.67510535154107,
+          "P_i_coefficient": 0.66173847261077
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.049479489474375,
+          "P_i_coefficient": 0.048794167052189
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.27112041907821,
+          "P_i_coefficient": 0.28492876340595
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.0042947399063434,
+          "P_i_coefficient": 0.0045385969310932
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.7302863445479502,
+        "contrast": 0.004179522426909998,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 0.5,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "adjacency",
+      "pointer_0": {
+        "axis": 0.86723293348743,
+        "plane": 0.86305341106052
+      },
+      "pointer_1": {
+        "axis": 0.13276706651257,
+        "plane": 0.13694658893948
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.14538828780939,
+          "P_i_coefficient": 0.14085523814643
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.089643796687475,
+          "P_i_coefficient": 0.083929455505423
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.71766512325113,
+          "P_i_coefficient": 0.72637769534099
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.047302792252006,
+          "P_i_coefficient": 0.04883761100715
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.6702526287996999,
+        "contrast": -0.00030222016488001824,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 1.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "adjacency",
+      "pointer_0": {
+        "axis": 0.83497520431741,
+        "plane": 0.83527742448229
+      },
+      "pointer_1": {
+        "axis": 0.16502479568259,
+        "plane": 0.16472257551771
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.39144396235211,
+          "P_i_coefficient": 0.43565769871737
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.03719937443668,
+          "P_i_coefficient": 0.04903290105525
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.44383346213018,
+          "P_i_coefficient": 0.39931750560005
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.12752320108103,
+          "P_i_coefficient": 0.11599189462734
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": -0.13365275831507994,
+        "contrast": 0.07296147126218,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 2.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "adjacency",
+      "pointer_0": {
+        "axis": 0.46965435647355,
+        "plane": 0.39669288521137
+      },
+      "pointer_1": {
+        "axis": 0.53034564352645,
+        "plane": 0.60330711478863
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.079599700079695,
+          "P_i_coefficient": 0.14727344965363
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.13102177859945,
+          "P_i_coefficient": 0.10604062497008
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.31709318513167,
+          "P_i_coefficient": 0.32238090681993
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.47228533618919,
+          "P_i_coefficient": 0.42430501855637
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": -0.58388547735308,
+        "contrast": -0.0408247193255,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 3.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "adjacency",
+      "pointer_0": {
+        "axis": 0.18764490166071,
+        "plane": 0.22846962098621
+      },
+      "pointer_1": {
+        "axis": 0.81235509833929,
+        "plane": 0.77153037901379
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.057360747799352,
+          "P_i_coefficient": 0.046366601159559
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.24993105026807,
+          "P_i_coefficient": 0.16972058806577
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.17110887318686,
+          "P_i_coefficient": 0.14127830050115
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.52159932874571,
+          "P_i_coefficient": 0.64263451027352
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": -0.40706824632024996,
+        "contrast": -0.06120930425154997,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 4.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "adjacency",
+      "pointer_0": {
+        "axis": 0.2658612247141,
+        "plane": 0.32707052896565
+      },
+      "pointer_1": {
+        "axis": 0.7341387752859,
+        "plane": 0.67292947103435
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.18558283298436,
+          "P_i_coefficient": 0.14794553692997
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.37503472575322,
+          "P_i_coefficient": 0.4947057249444
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.14148769598128,
+          "P_i_coefficient": 0.11791568778413
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.29789474528113,
+          "P_i_coefficient": 0.2394330503415
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 1.0,
+        "contrast": 0.0,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 0.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "laplacian_control",
+      "pointer_0": {
+        "axis": 1.0,
+        "plane": 1.0
+      },
+      "pointer_1": {
+        "axis": 0.0,
+        "plane": 0.0
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 1.0,
+          "P_i_coefficient": 1.0
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.0,
+          "P_i_coefficient": 0.0
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.0,
+          "P_i_coefficient": 0.0
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.0,
+          "P_i_coefficient": 0.0
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.98049150206636,
+        "contrast": 1.4876389319962158e-05,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 0.1,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "laplacian_control",
+      "pointer_0": {
+        "axis": 0.99025318922784,
+        "plane": 0.99023831283852
+      },
+      "pointer_1": {
+        "axis": 0.0097468107721564,
+        "plane": 0.0097616871614841
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.94208187290699,
+          "P_i_coefficient": 0.93911863155786
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.0096407274984683,
+          "P_i_coefficient": 0.0096182563375032
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.048156439931529,
+          "P_i_coefficient": 0.051134557669986
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.00012095966301585,
+          "P_i_coefficient": 0.00012855443465318
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.8926822991304,
+        "contrast": 0.0004870591234600319,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 0.25,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "laplacian_control",
+      "pointer_0": {
+        "axis": 0.94658467912693,
+        "plane": 0.94609762000347
+      },
+      "pointer_1": {
+        "axis": 0.05341532087307,
+        "plane": 0.053902379996525
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.68800102860126,
+          "P_i_coefficient": 0.67590139308536
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.049747203454388,
+          "P_i_coefficient": 0.049033576211317
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.25809659140222,
+          "P_i_coefficient": 0.27068328604157
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.0041551765421369,
+          "P_i_coefficient": 0.0043817446617523
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.71271663742638,
+        "contrast": 0.004046407052459955,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 0.5,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "laplacian_control",
+      "pointer_0": {
+        "axis": 0.85838152223942,
+        "plane": 0.85433511518696
+      },
+      "pointer_1": {
+        "axis": 0.14161847776058,
+        "plane": 0.14566488481304
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.27070125220442,
+          "P_i_coefficient": 0.27103952724943
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.10426278100834,
+          "P_i_coefficient": 0.09913026885509
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.58363386298255,
+          "P_i_coefficient": 0.58734199498999
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.041402103804692,
+          "P_i_coefficient": 0.042488208905493
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.34686103987597994,
+        "contrast": 0.012859814071719988,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 1.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "laplacian_control",
+      "pointer_0": {
+        "axis": 0.67986042697385,
+        "plane": 0.66700061290213
+      },
+      "pointer_1": {
+        "axis": 0.32013957302615,
+        "plane": 0.33299938709787
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.46120970187003,
+          "P_i_coefficient": 0.42736159129485
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.24673979455673,
+          "P_i_coefficient": 0.23142592809745
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.2057909110321,
+          "P_i_coefficient": 0.252498835679
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.086259592541143,
+          "P_i_coefficient": 0.088713644928705
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": -0.32645926656270996,
+        "contrast": 0.04810968128416998,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 2.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "laplacian_control",
+      "pointer_0": {
+        "axis": 0.36082520736073,
+        "plane": 0.31271552607656
+      },
+      "pointer_1": {
+        "axis": 0.63917479263926,
+        "plane": 0.68728447392344
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.099901756437001,
+          "P_i_coefficient": 0.077140251853733
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.49018692215237,
+          "P_i_coefficient": 0.47682509595604
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.21281376963955,
+          "P_i_coefficient": 0.283684955507
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.19709755177108,
+          "P_i_coefficient": 0.16234969668322
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.013473998322379943,
+        "contrast": -0.028432226847020015,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 3.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "laplacian_control",
+      "pointer_0": {
+        "axis": 0.49252088573768,
+        "plane": 0.5209531125847
+      },
+      "pointer_1": {
+        "axis": 0.50747911426232,
+        "plane": 0.4790468874153
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.27587129724126,
+          "P_i_coefficient": 0.17063775863624
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.27926831376341,
+          "P_i_coefficient": 0.3870336014816
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.24508181534344,
+          "P_i_coefficient": 0.32188312710144
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.19977857365189,
+          "P_i_coefficient": 0.12044551278071
+        }
+      },
+      "setting_count": 6
+    },
+    {
+      "binary_observable": {
+        "bias": 0.5585407083984799,
+        "contrast": -0.03522280569184,
+        "formula": "A_i = bias I + contrast n_i.sigma"
+      },
+      "dimensionless_pulse": 4.0,
+      "face_effect_formula": "E_(i,r) = alpha_r P_i + beta_r (I-P_i)",
+      "model": "laplacian_control",
+      "pointer_0": {
+        "axis": 0.76165895135332,
+        "plane": 0.79688175704516
+      },
+      "pointer_1": {
+        "axis": 0.23834104864668,
+        "plane": 0.20311824295484
+      },
+      "receipts": {
+        "clean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.5246102111629,
+          "P_i_coefficient": 0.34930325952464
+        },
+        "clean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.083659419980056,
+          "P_i_coefficient": 0.12716371621674
+        },
+        "nonclean_pointer_0": {
+          "I_minus_P_i_coefficient": 0.27227154588226,
+          "P_i_coefficient": 0.41235569182868
+        },
+        "nonclean_pointer_1": {
+          "I_minus_P_i_coefficient": 0.11945882297478,
+          "P_i_coefficient": 0.11117733242994
+        }
+      },
+      "setting_count": 6
+    }
+  ],
+  "checks": {
+    "Audit022_passed": true,
+    "Audit025_passed": true,
+    "Audit026_passed": true,
+    "Born_frequency_law_not_claimed": true,
+    "all_sampled_scalars_in_unit_interval": true,
+    "all_symmetry_rows_axis_rank2_plane_rank4": true,
+    "analyzer_sector_character_is_chi_deck": true,
+    "binary_pointer_completeness_within_tolerance": true,
+    "chi_deck_sector_exchange_retained": true,
+    "clean_nonclean_split_within_tolerance": true,
+    "coherent_packet_audit_passed": true,
+    "eight_sampled_pulses": true,
+    "every_face_receipt_POVM_normalized": true,
+    "every_face_receipt_effect_positive": true,
+    "four_receipt_completeness_within_tolerance": true,
+    "no_Luders_update_inserted": true,
+    "no_extra_sector_dependent_weight_inserted": true,
+    "nonclean_receipts_retained": true,
+    "numerical_row_count_96": true,
+    "scalar_law_setting_independent": true,
+    "setting_scalar_covariance_within_tolerance": true,
+    "six_exact_analyzer_symmetry_rows": true,
+    "six_settings_per_calibration": true,
+    "sixteen_face_receipt_POVMs_constructed": true,
+    "sixteen_sampled_calibrations": true,
+    "state_update_instrument_not_claimed": true,
+    "two_candidate_dynamics": true
+  },
+  "earned_statement": "For each of the two declared coherent dynamics models and each of the eight sampled dimensionless pulses, the six native analyzer settings have the same axis/plane scalar response to numerical precision. The paired six-dimensional clean/nonclean pointer effects therefore descend by functional calculus to the Program-01 complex2 face carrier as four positive receipt effects of the form alpha P_i + beta(I-P_i). The four receipts sum to identity for every sampled calibration, while clean and nonclean outputs are both retained. Audit026's chi_deck sector character is preserved because the scalar law is setting independent and no additional sector weight is inserted. This closes a sampled normalized local POVM law only; no state-update instrument or physical frequency interpretation is introduced.",
+  "face_receipt_POVM": {
+    "carrier": "complex2 face carrier",
+    "complement": "I-P_i",
+    "effect_formula": "E_(i,r)=alpha_r P_i + beta_r (I-P_i)",
+    "normalization": "sum over all four receipts equals I",
+    "positivity": "all sampled alpha_r,beta_r lie in [0,1]",
+    "receipt_names": [
+      "clean_pointer_0",
+      "nonclean_pointer_0",
+      "clean_pointer_1",
+      "nonclean_pointer_1"
+    ],
+    "setting_projector": "rank-one P_i"
+  },
+  "next_gate": "Combine the sampled local face receipt POVMs with the canonical antisymmetric joint line and compute complete joint receipt tables without discarding clean/nonclean or the Audit019 zero preparation branch. First test local normalization and no-signaling. Only after those pass, evaluate CHSH for the actual unsharp binary pointer observable rather than the ideal projective reflections.",
+  "numerical_closure": {
+    "max_binary_completeness_error": 9.992007221626409e-15,
+    "max_clean_nonclean_split_error": 1.0103029524088925e-14,
+    "max_four_receipt_completeness_error": 9.992007221626409e-15,
+    "max_setting_covariance_error": 9.992007221626409e-15,
+    "scalar_max": 1.0,
+    "scalar_min": 0.0,
+    "tolerance": 2e-12
+  },
+  "sample_surface": {
+    "calibration_count": 16,
+    "model_count": 2,
+    "models": [
+      "adjacency",
+      "laplacian_control"
+    ],
+    "pulse_count": 8,
+    "pulses": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "raw_row_count": 96,
+    "setting_count": 6
+  },
+  "verdict": "the_sampled_coherent_axis_contact_scalar_response_descends_to_six_setting_normalized_four_receipt_face_qubit_POVMs_for_both_candidate_dynamics_and_all_eight_sampled_pulses_with_clean_and_nonclean_outputs_retained_and_no_state_update_rule_inserted",
+  "version": 1
+}
