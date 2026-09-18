@@ -1,0 +1,60 @@
+{
+  "Bell": {
+    "exceeds_2": true,
+    "frozen_quartet_CHSH": "1+3/sqrt(5)",
+    "numeric": 2.341640786499874
+  },
+  "artifact_id": "epr_native_rank3_kernel_visibility_038",
+  "artifact_sha256": "7b2ac79e6a3001898c13bce32a909d2bbbb4bd3429cc1a90955676df56856e70",
+  "audit_pass": true,
+  "boundary": {
+    "Audit036_one_parameter_reduction_inherited": true,
+    "Audit037_bilinear_uniqueness_inherited": true,
+    "Born_frequency_rule_used": false,
+    "bilinear_receipt_extension_required_for_this_gate": false,
+    "native_analyzer_carrier_dimension_3": true,
+    "native_receipt_frequency_law_fully_closed": false,
+    "positive_type_receipt_kernel_derived": false,
+    "rank3_receipt_kernel_derived": false,
+    "remaining_gate": "derive that the native heralded receipt correlation is a positive rank-3 kernel on the B_plus3 carrier",
+    "target_visibility_fitted": false
+  },
+  "checks": {
+    "Audit036_passes": true,
+    "Audit036_reduced_to_one_visibility": true,
+    "Audit037_conference_eigenspaces_are_3_plus_3": true,
+    "Audit037_passes": true,
+    "B_plus3_selects_positive_visibility_sign": true,
+    "PSD_interval_exact": true,
+    "conference_identity_replayed_C2_equals_5I": true,
+    "conference_matrix_symmetric": true,
+    "conference_trace_zero": true,
+    "derived_CHSH_exceeds_2": true,
+    "derived_visibility_exceeds_Bell_threshold": true,
+    "rank3_positive_kernel_forces_boundary_visibility": true,
+    "rank3_visibility_magnitude_is_one_over_sqrt5": true
+  },
+  "earned_statement": "Audit 036 reduces every symmetric native-covariant heralded correlation table to E_ii=-1 and E_ij=-v S_ij. Therefore the anticorrelation kernel is K(v)=-E(v)=I+vC. Audit 037 gives C^2=5I with two three-dimensional eigenspaces. Hence K(v) has eigenvalues 1+v sqrt(5) and 1-v sqrt(5), each with multiplicity three. Positivity requires |v|<=1/sqrt(5). An exactly rank-three positive realization forces v=+/-1/sqrt(5). The native B_plus3 Gram kernel is I+C/sqrt(5), selecting v=1/sqrt(5). Thus the target visibility follows from positive rank-three realization on the native analyzer carrier. What remains open is whether finite receipt mechanics itself supplies that positive rank-three kernel.",
+  "kernel_family": {
+    "conference_identity": "C^2=5I",
+    "definition": "K(v)=-E(v)=I+vC",
+    "positive_semidefinite_condition": "|v|<=1/sqrt(5)",
+    "rank_at_negative_boundary": 3,
+    "rank_at_positive_boundary": 3,
+    "rank_inside_positive_interval": 6,
+    "spectrum": {
+      "1+v*sqrt(5)": 3,
+      "1-v*sqrt(5)": 3
+    }
+  },
+  "native_sector": {
+    "Gram_kernel": "I+C/sqrt(5)",
+    "dimension": 3,
+    "name": "B_plus3",
+    "selected_visibility": "1/sqrt(5)",
+    "selected_visibility_numeric": 0.4472135954999579
+  },
+  "next_gate": "Test the finite heralded receipt apparatus for positive-type and rank-three descent onto the native B_plus3 analyzer carrier. Do not assume bilinear extension or Born weighting.",
+  "verdict": "the_one_parameter_native_correlation_family_has_anticorrelation_kernel_K_equal_I_plus_vC_with_spectrum_1_plus_or_minus_vsqrt5_so_positive_rank3_realization_on_the_native_B_plus3_analyzer_carrier_forces_v_equal_1_over_sqrt5",
+  "version": 1
+}
