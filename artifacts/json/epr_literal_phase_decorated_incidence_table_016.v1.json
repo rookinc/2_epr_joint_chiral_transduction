@@ -1,0 +1,4351 @@
+{
+  "artifact_id": "epr_literal_phase_decorated_incidence_table_016",
+  "artifact_sha256": "1460c3016095b275f8f727ea059dcfedcc2484c20960b71cf74d732c8dd2e246",
+  "audit_pass": true,
+  "boundary": {
+    "epsilon_label_global_swap_is_conventional": true,
+    "joint_wedge_census_not_yet_run": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_probability_law": true,
+    "phase_and_event_coordinates_both_explicit": true,
+    "projective_line_map_ell_not_yet_derived": true,
+    "raw_face_block_does_not_select_phase": true,
+    "raw_face_vector_does_not_select_phase": true,
+    "registration_index_not_identified_with_phase": true,
+    "signed_block_sign_not_identified_with_phase": true
+  },
+  "checks": {
+    "201BD_passed": true,
+    "201FK_passed": true,
+    "201FR_passed": true,
+    "Audit015_passed": true,
+    "all_24_blocks_receive_local_slots": true,
+    "bare_projection_has_120_rows": true,
+    "decorated_row_count_240": true,
+    "every_block_has_one_native_anchor_label": true,
+    "five_G60_states_per_phase_mode": true,
+    "forgetting_phase_is_exactly_two_to_one": true,
+    "forty_rows_per_face_carrier": true,
+    "four_blocks_on_each_carrier": true,
+    "full_complex_structure_recorded": true,
+    "literal_phase_state_count_12": true,
+    "local_phase_state_count_2": true,
+    "matches_Audit015_expected_count": true,
+    "native_face_object_count_6": true,
+    "order_parameter_is_relative_complex_orientation": true,
+    "phase_character_matches_201FR": true,
+    "phase_mode_pair_count_48": true,
+    "phase_state_ids_are_0_through_11": true,
+    "raw_face_block_does_not_select_phase": true,
+    "raw_face_vector_does_not_select_phase": true,
+    "signed_block_audit_passed": true,
+    "signed_block_count_24": true,
+    "signed_blocks_per_face_4": true,
+    "state_space_is_two_relative_JE_orientations": true,
+    "twenty_rows_per_phase_state": true,
+    "two_anchor_labels_per_face": true,
+    "two_phase_states_per_carrier": true
+  },
+  "decorated_incidence_domain": {
+    "definition": "{(s,u,B): s in S_12, face(s)=carrier(B), u in B}",
+    "forget_phase_projection": "2-to-1 onto I_F",
+    "name": "I_F_tilde",
+    "phase_mode_pair_count": 48,
+    "row_count": 240,
+    "rows": [
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 3,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 0,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 25,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 0,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 33,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 0,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 44,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 0,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 47,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 0,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 6,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 0,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 16,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 0,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 23,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 0,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 50,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 0,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "g60_state": 57,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 0,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 1,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 0,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 28,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 0,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 31,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 0,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 42,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 0,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 45,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 0,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 9,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 0,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 18,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 0,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 20,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 0,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 52,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 0,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "g60_state": 59,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 0,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 3,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 1,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 25,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 1,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 33,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 1,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 44,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 1,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 47,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "negative",
+          "signed_block_index": 0
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 1,
+        "signed_block_index": 0
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 6,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 1,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 16,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 1,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 23,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 1,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 50,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 1,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "g60_state": 57,
+        "local_mode_identity": {
+          "event_anchor_label": 0,
+          "sign": "positive",
+          "signed_block_index": 1
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 1,
+        "signed_block_index": 1
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 1,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 1,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 28,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 1,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 31,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 1,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 42,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 1,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 45,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "positive",
+          "signed_block_index": 14
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 1,
+        "signed_block_index": 14
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 9,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 1,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 18,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 1,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 20,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 1,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 52,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 1,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "g60_state": 59,
+        "local_mode_identity": {
+          "event_anchor_label": 9,
+          "sign": "negative",
+          "signed_block_index": 15
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 1,
+        "signed_block_index": 15
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 5,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 2,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 12,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 2,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 19,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 2,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 28,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 2,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 30,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 2,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 2,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 2,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 38,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 2,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 41,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 2,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 52,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 2,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "g60_state": 55,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 2,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 7,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 2,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 10,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 2,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 17,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 2,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 26,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 2,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 33,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 2,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 4,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 2,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 35,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 2,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 43,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 2,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 54,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 2,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "g60_state": 57,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 2,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 5,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 3,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 12,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 3,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 19,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 3,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 28,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 3,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 30,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "negative",
+          "signed_block_index": 2
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 3,
+        "signed_block_index": 2
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 2,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 3,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 38,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 3,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 41,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 3,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 52,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 3,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "g60_state": 55,
+        "local_mode_identity": {
+          "event_anchor_label": 3,
+          "sign": "positive",
+          "signed_block_index": 3
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 3,
+        "signed_block_index": 3
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 7,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 3,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 10,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 3,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 17,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 3,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 26,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 3,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 33,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "positive",
+          "signed_block_index": 8
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 3,
+        "signed_block_index": 8
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 4,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 3,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 35,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 3,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 43,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 3,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 54,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 3,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "g60_state": 57,
+        "local_mode_identity": {
+          "event_anchor_label": 6,
+          "sign": "negative",
+          "signed_block_index": 9
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 3,
+        "signed_block_index": 9
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 0,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 4,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 14,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 4,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 17,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 4,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 45,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 4,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 53,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 4,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 8,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 4,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 20,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 4,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 27,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 4,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 36,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 4,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "g60_state": 43,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 4,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 3,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 4,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 12,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 4,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 15,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 4,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 48,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 4,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 51,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 4,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 6,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 4,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 22,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 4,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 29,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 4,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 38,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 4,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "g60_state": 40,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 4,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 0,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 5,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 14,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 5,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 17,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 5,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 45,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 5,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 53,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "negative",
+          "signed_block_index": 6
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 5,
+        "signed_block_index": 6
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 8,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 5,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 20,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 5,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 27,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 5,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 36,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 5,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "g60_state": 43,
+        "local_mode_identity": {
+          "event_anchor_label": 5,
+          "sign": "positive",
+          "signed_block_index": 7
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 5,
+        "signed_block_index": 7
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 3,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 5,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 12,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 5,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 15,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 5,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 48,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 5,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 51,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "positive",
+          "signed_block_index": 20
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 5,
+        "signed_block_index": 20
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 6,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 5,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 22,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 5,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 29,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 5,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 38,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 5,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "g60_state": 40,
+        "local_mode_identity": {
+          "event_anchor_label": 1,
+          "sign": "negative",
+          "signed_block_index": 21
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 5,
+        "signed_block_index": 21
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 8,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 6,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 10,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 6,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 42,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 6,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 49,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 6,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 58,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 6,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 0,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 6,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 18,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 6,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 21,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 6,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 32,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 6,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "g60_state": 35,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 6,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 5,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 6,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 13,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 6,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 40,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 6,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 47,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 6,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 56,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 6,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 2,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 6,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 15,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 6,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 23,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 6,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 34,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 6,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "g60_state": 37,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 6,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 8,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 7,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 10,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 7,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 42,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 7,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 49,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 7,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 58,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "negative",
+          "signed_block_index": 4
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 7,
+        "signed_block_index": 4
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 0,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 7,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 18,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 7,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 21,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 7,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 32,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 7,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "g60_state": 35,
+        "local_mode_identity": {
+          "event_anchor_label": 4,
+          "sign": "positive",
+          "signed_block_index": 5
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 7,
+        "signed_block_index": 5
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 5,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 7,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 13,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 7,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 40,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 7,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 47,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 7,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 56,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "positive",
+          "signed_block_index": 22
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 7,
+        "signed_block_index": 22
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 2,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 7,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 15,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 7,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 23,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 7,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 34,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 7,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "g60_state": 37,
+        "local_mode_identity": {
+          "event_anchor_label": 2,
+          "sign": "negative",
+          "signed_block_index": 23
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 7,
+        "signed_block_index": 23
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 1,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 8,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 13,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 8,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 24,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 8,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 27,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 8,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 55,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 8,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 9,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 8,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 30,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 8,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 37,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 8,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 46,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 8,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "g60_state": 53,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 8,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 4,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 8,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 11,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 8,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 22,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 8,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 25,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 8,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 58,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 8,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 7,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 8,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 32,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 8,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 39,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 8,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 48,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 8,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "g60_state": 50,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 8,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 1,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 9,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 13,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 9,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 24,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 9,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 27,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 9,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 55,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "negative",
+          "signed_block_index": 10
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 9,
+        "signed_block_index": 10
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 9,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 9,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 30,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 9,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 37,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 9,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 46,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 9,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "g60_state": 53,
+        "local_mode_identity": {
+          "event_anchor_label": 7,
+          "sign": "positive",
+          "signed_block_index": 11
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 9,
+        "signed_block_index": 11
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 4,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 9,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 11,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 9,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 22,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 9,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 25,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 9,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 58,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "positive",
+          "signed_block_index": 16
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 9,
+        "signed_block_index": 16
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 7,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 9,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 32,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 9,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 39,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 9,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 48,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 9,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "g60_state": 50,
+        "local_mode_identity": {
+          "event_anchor_label": 10,
+          "sign": "negative",
+          "signed_block_index": 17
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 9,
+        "signed_block_index": 17
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 19,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 10,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 29,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 10,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 39,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 10,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 49,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 10,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 59,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 10,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 11,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 10,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 21,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 10,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 31,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 10,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 41,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 10,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "g60_state": 51,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 10,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 16,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 10,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 26,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 10,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 36,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 10,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 46,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 10,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 56,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 10,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 14,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 10,
+        "signed_block_index": 19
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 24,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 10,
+        "signed_block_index": 19
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 34,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 10,
+        "signed_block_index": 19
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 44,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 10,
+        "signed_block_index": 19
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "g60_state": 54,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 10,
+        "signed_block_index": 19
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 19,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 11,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 29,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 11,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 39,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 11,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 49,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 11,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 59,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "positive",
+          "signed_block_index": 12
+        },
+        "local_mode_slot": 2,
+        "phase_state_id": 11,
+        "signed_block_index": 12
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 11,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 11,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 21,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 11,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 31,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 11,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 41,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 11,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "g60_state": 51,
+        "local_mode_identity": {
+          "event_anchor_label": 8,
+          "sign": "negative",
+          "signed_block_index": 13
+        },
+        "local_mode_slot": 0,
+        "phase_state_id": 11,
+        "signed_block_index": 13
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 16,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 11,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 26,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 11,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 36,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 11,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 46,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 11,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "negative",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 56,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "negative",
+          "signed_block_index": 18
+        },
+        "local_mode_slot": 1,
+        "phase_state_id": 11,
+        "signed_block_index": 18
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 14,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 11,
+        "signed_block_index": 19
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 24,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 11,
+        "signed_block_index": 19
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 34,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 11,
+        "signed_block_index": 19
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 44,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 11,
+        "signed_block_index": 19
+      },
+      {
+        "block_sign": "positive",
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "g60_state": 54,
+        "local_mode_identity": {
+          "event_anchor_label": 11,
+          "sign": "positive",
+          "signed_block_index": 19
+        },
+        "local_mode_slot": 3,
+        "phase_state_id": 11,
+        "signed_block_index": 19
+      }
+    ],
+    "rows_per_face": 40,
+    "rows_per_phase_state": 20,
+    "states_per_phase_mode": 5
+  },
+  "earned_statement": "Program-01 201FK supplies exactly two relative-complex-orientation states on each of the six native face objects, represented as J_S direct sum epsilon J_E with epsilon = plus or minus one. Combined with the four exact signed event-mode objects per face closed in Audit 015, this constructs the literal twelve-state local phase table and the exact 240-row phase-decorated native boundary-incidence domain I_F_tilde. Every phase state carries twenty incidence rows, every face carries forty, every one of the forty-eight phase-mode pairs carries five native G60 states, and forgetting the phase is exactly two-to-one onto the 120-row bare incidence domain.",
+  "eta_tilde": {
+    "codomain_phase_mode_pair_count": 48,
+    "domain_row_count": 240,
+    "formula": "eta_tilde(s,u,B) = (s,m_B)",
+    "fully_serialized": true
+  },
+  "native_mode_space": {
+    "block_rows": [
+      {
+        "carrier_index": 0,
+        "event_anchor_label": 0,
+        "five_state_block": [
+          3,
+          25,
+          33,
+          44,
+          47
+        ],
+        "local_mode_slot": 0,
+        "sign": "negative",
+        "signed_block_index": 0
+      },
+      {
+        "carrier_index": 0,
+        "event_anchor_label": 0,
+        "five_state_block": [
+          6,
+          16,
+          23,
+          50,
+          57
+        ],
+        "local_mode_slot": 2,
+        "sign": "positive",
+        "signed_block_index": 1
+      },
+      {
+        "carrier_index": 1,
+        "event_anchor_label": 3,
+        "five_state_block": [
+          5,
+          12,
+          19,
+          28,
+          30
+        ],
+        "local_mode_slot": 0,
+        "sign": "negative",
+        "signed_block_index": 2
+      },
+      {
+        "carrier_index": 1,
+        "event_anchor_label": 3,
+        "five_state_block": [
+          2,
+          38,
+          41,
+          52,
+          55
+        ],
+        "local_mode_slot": 2,
+        "sign": "positive",
+        "signed_block_index": 3
+      },
+      {
+        "carrier_index": 3,
+        "event_anchor_label": 4,
+        "five_state_block": [
+          8,
+          10,
+          42,
+          49,
+          58
+        ],
+        "local_mode_slot": 1,
+        "sign": "negative",
+        "signed_block_index": 4
+      },
+      {
+        "carrier_index": 3,
+        "event_anchor_label": 4,
+        "five_state_block": [
+          0,
+          18,
+          21,
+          32,
+          35
+        ],
+        "local_mode_slot": 3,
+        "sign": "positive",
+        "signed_block_index": 5
+      },
+      {
+        "carrier_index": 2,
+        "event_anchor_label": 5,
+        "five_state_block": [
+          0,
+          14,
+          17,
+          45,
+          53
+        ],
+        "local_mode_slot": 1,
+        "sign": "negative",
+        "signed_block_index": 6
+      },
+      {
+        "carrier_index": 2,
+        "event_anchor_label": 5,
+        "five_state_block": [
+          8,
+          20,
+          27,
+          36,
+          43
+        ],
+        "local_mode_slot": 3,
+        "sign": "positive",
+        "signed_block_index": 7
+      },
+      {
+        "carrier_index": 1,
+        "event_anchor_label": 6,
+        "five_state_block": [
+          7,
+          10,
+          17,
+          26,
+          33
+        ],
+        "local_mode_slot": 3,
+        "sign": "positive",
+        "signed_block_index": 8
+      },
+      {
+        "carrier_index": 1,
+        "event_anchor_label": 6,
+        "five_state_block": [
+          4,
+          35,
+          43,
+          54,
+          57
+        ],
+        "local_mode_slot": 1,
+        "sign": "negative",
+        "signed_block_index": 9
+      },
+      {
+        "carrier_index": 4,
+        "event_anchor_label": 7,
+        "five_state_block": [
+          1,
+          13,
+          24,
+          27,
+          55
+        ],
+        "local_mode_slot": 0,
+        "sign": "negative",
+        "signed_block_index": 10
+      },
+      {
+        "carrier_index": 4,
+        "event_anchor_label": 7,
+        "five_state_block": [
+          9,
+          30,
+          37,
+          46,
+          53
+        ],
+        "local_mode_slot": 2,
+        "sign": "positive",
+        "signed_block_index": 11
+      },
+      {
+        "carrier_index": 5,
+        "event_anchor_label": 8,
+        "five_state_block": [
+          19,
+          29,
+          39,
+          49,
+          59
+        ],
+        "local_mode_slot": 2,
+        "sign": "positive",
+        "signed_block_index": 12
+      },
+      {
+        "carrier_index": 5,
+        "event_anchor_label": 8,
+        "five_state_block": [
+          11,
+          21,
+          31,
+          41,
+          51
+        ],
+        "local_mode_slot": 0,
+        "sign": "negative",
+        "signed_block_index": 13
+      },
+      {
+        "carrier_index": 0,
+        "event_anchor_label": 9,
+        "five_state_block": [
+          1,
+          28,
+          31,
+          42,
+          45
+        ],
+        "local_mode_slot": 3,
+        "sign": "positive",
+        "signed_block_index": 14
+      },
+      {
+        "carrier_index": 0,
+        "event_anchor_label": 9,
+        "five_state_block": [
+          9,
+          18,
+          20,
+          52,
+          59
+        ],
+        "local_mode_slot": 1,
+        "sign": "negative",
+        "signed_block_index": 15
+      },
+      {
+        "carrier_index": 4,
+        "event_anchor_label": 10,
+        "five_state_block": [
+          4,
+          11,
+          22,
+          25,
+          58
+        ],
+        "local_mode_slot": 3,
+        "sign": "positive",
+        "signed_block_index": 16
+      },
+      {
+        "carrier_index": 4,
+        "event_anchor_label": 10,
+        "five_state_block": [
+          7,
+          32,
+          39,
+          48,
+          50
+        ],
+        "local_mode_slot": 1,
+        "sign": "negative",
+        "signed_block_index": 17
+      },
+      {
+        "carrier_index": 5,
+        "event_anchor_label": 11,
+        "five_state_block": [
+          16,
+          26,
+          36,
+          46,
+          56
+        ],
+        "local_mode_slot": 1,
+        "sign": "negative",
+        "signed_block_index": 18
+      },
+      {
+        "carrier_index": 5,
+        "event_anchor_label": 11,
+        "five_state_block": [
+          14,
+          24,
+          34,
+          44,
+          54
+        ],
+        "local_mode_slot": 3,
+        "sign": "positive",
+        "signed_block_index": 19
+      },
+      {
+        "carrier_index": 2,
+        "event_anchor_label": 1,
+        "five_state_block": [
+          3,
+          12,
+          15,
+          48,
+          51
+        ],
+        "local_mode_slot": 2,
+        "sign": "positive",
+        "signed_block_index": 20
+      },
+      {
+        "carrier_index": 2,
+        "event_anchor_label": 1,
+        "five_state_block": [
+          6,
+          22,
+          29,
+          38,
+          40
+        ],
+        "local_mode_slot": 0,
+        "sign": "negative",
+        "signed_block_index": 21
+      },
+      {
+        "carrier_index": 3,
+        "event_anchor_label": 2,
+        "five_state_block": [
+          5,
+          13,
+          40,
+          47,
+          56
+        ],
+        "local_mode_slot": 2,
+        "sign": "positive",
+        "signed_block_index": 22
+      },
+      {
+        "carrier_index": 3,
+        "event_anchor_label": 2,
+        "five_state_block": [
+          2,
+          15,
+          23,
+          34,
+          37
+        ],
+        "local_mode_slot": 0,
+        "sign": "negative",
+        "signed_block_index": 23
+      }
+    ],
+    "local_mode_slot_is_serialization_only": true,
+    "mode_identity": "signed face block plus its unique registered-event anchor label",
+    "modes_per_face": 4,
+    "signed_block_count": 24
+  },
+  "next_gate": "Derive ell on the forty-eight explicit phase-mode pairs. Determine the CP1 projective line occupied by each signed event mode under each relative complex orientation, using current Program-01 face Hilbert interfaces only. Then classify the phase-decorated two-wing boundary domain by projective-line equality before analyzer settings are introduced.",
+  "phase_state_space": {
+    "complex_structure_formula": "J_F(face,epsilon) = J_S direct sum epsilon J_E",
+    "face_count": 6,
+    "global_label_swap_is_presentation_convention": true,
+    "state_count": 12,
+    "state_formula": "(face, epsilon), epsilon in {+1,-1}",
+    "states": [
+      {
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 0
+      },
+      {
+        "carrier_index": 0,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 1
+      },
+      {
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 2
+      },
+      {
+        "carrier_index": 1,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 3
+      },
+      {
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 4
+      },
+      {
+        "carrier_index": 2,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 5
+      },
+      {
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 6
+      },
+      {
+        "carrier_index": 3,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 7
+      },
+      {
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 8
+      },
+      {
+        "carrier_index": 4,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 9
+      },
+      {
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum J_E",
+        "epsilon": 1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 10
+      },
+      {
+        "carrier_index": 5,
+        "complex_structure": "J_S direct sum (-J_E)",
+        "epsilon": -1,
+        "order_parameter": "relative complex orientation",
+        "phase_state_id": 11
+      }
+    ],
+    "states_per_face": 2,
+    "swap_character": "delta = chi_face * det_E2"
+  },
+  "verdict": "literal_twelve_state_relative_complex_orientation_table_and_exact_240_row_phase_decorated_native_boundary_incidence_domain_constructed",
+  "version": 1
+}
