@@ -1,0 +1,95 @@
+{
+  "analyzer_sector_geometry": {
+    "B_minus_to_B_plus_map_count": 60,
+    "B_plus_to_B_minus_map_count": 60,
+    "cross_sector_map_sets_equal": true,
+    "lines_per_sector": 6,
+    "sector_names": [
+      "B_plus3",
+      "B_minus3"
+    ],
+    "within_B_minus_symmetry_order": 60,
+    "within_B_plus_symmetry_order": 60,
+    "within_cross_intersection_size": 0,
+    "within_sector_groups_equal": true
+  },
+  "artifact_id": "epr_projective_analyzer_sector_extension_025",
+  "artifact_sha256": "1114ebcf55879cc692d7f41bf238eb634cd4d09618ce3eb3d9f1a60b1a79c360",
+  "audit_pass": true,
+  "boundary": {
+    "Bell_capable_quartets_retained": true,
+    "Born_frequency_law_not_derived": true,
+    "common_face_adjoint_embedding_closed": false,
+    "face_T_equals_analyzer_axis": false,
+    "local_face_instrument_not_yet_constructed": true,
+    "native_face_relative_group_order": 120,
+    "no_signaling_not_yet_tested": true,
+    "sector_exchange_Z2_derived": true,
+    "sector_exchange_called_chirality": false,
+    "sector_exchange_identified_with_Program01_relative_complex_orientation": false,
+    "sector_exchange_identified_with_deck_character": false,
+    "single_sector_projective_symmetry_order": 60
+  },
+  "checks": {
+    "Audit020_passed": true,
+    "Audit022_passed": true,
+    "Audit024_passed": true,
+    "Bell_capable_quartets_retained": true,
+    "Program01_complex_orientation_not_yet_identified": true,
+    "cross_sector_map_sets_equal": true,
+    "cross_sector_maps_are_exactly_odd": true,
+    "each_setting_face_map_has_four_label_bridges": true,
+    "face_T_axis_not_identified_with_analyzer_axis": true,
+    "face_group_equals_within_union_cross": true,
+    "face_group_parity_split_60_60": true,
+    "minus_to_plus_count_60": true,
+    "plus_to_minus_count_60": true,
+    "relative_face_group_independent_of_reference_map": true,
+    "relative_face_group_order_120": true,
+    "relative_face_maps_form_group": true,
+    "sector_flip_bit_equals_permutation_parity": true,
+    "sector_flip_bit_is_Z2_homomorphism": true,
+    "sector_flip_not_called_chirality": true,
+    "setting_face_map_count_120": true,
+    "two_character_sector_line_systems_present": true,
+    "within_and_cross_sets_disjoint": true,
+    "within_minus_order_60": true,
+    "within_plus_order_60": true,
+    "within_sector_groups_equal": true,
+    "within_sector_maps_are_exactly_even": true,
+    "within_sector_symmetry_is_group": true,
+    "within_subgroup_index_two": true
+  },
+  "earned_statement": "The factor-of-two mismatch exposed by the first Audit-025 attempt is native structure. Each of the two three-dimensional analyzer character sectors has the same 60-element projective six-line symmetry group. There are exactly 60 projective switching maps from B_plus3 to B_minus3 and exactly 60 in the reverse direction, disjoint from the within-sector subgroup. The 120-element relative setting-to-face permutation group derived in Audit 024 is exactly the union of the 60 within-sector maps and the 60 cross-sector maps. The within-sector subgroup consists exactly of the even six-setting permutations; the cross-sector coset consists exactly of the odd permutations. The induced sector bit is a surjective Z2 homomorphism and equals permutation parity on this native 120-element group. Thus the native face descent acts on the analyzer not as one isolated six-line sector but as a Z2-extended pair of native six-line character sectors.",
+  "native_face_group": {
+    "G60_label_bridge_count": 480,
+    "label_bridges_per_setting_face_map": 4,
+    "reference_map_independence_failure_count": 0,
+    "relative_face_group_order": 120,
+    "setting_face_map_count": 120
+  },
+  "next_gate": "Put the analyzer sector-flip Z2 character and the Program-01 relative-complex-orientation/seam Z2 character on a genuine common native domain. Test whether they are the same character, its negative, or independent. Do not identify the analyzer sector bit with chirality or complex orientation by analogy alone.",
+  "sector_extension": {
+    "cross_parity_profile": {
+      "1": 60
+    },
+    "even_subgroup_preserves_sector": true,
+    "exact_sequence": "1 -> G60_projective -> G120_face -> Z2 -> 1",
+    "kernel": "within-sector projective symmetry",
+    "kernel_order": 60,
+    "odd_coset_exchanges_sector": true,
+    "quotient": "Z2",
+    "sector_flip_equals_permutation_parity": true,
+    "sector_flip_homomorphism_failure_count": 0,
+    "total_group_order": 120,
+    "total_parity_profile": {
+      "0": 60,
+      "1": 60
+    },
+    "within_parity_profile": {
+      "0": 60
+    }
+  },
+  "verdict": "the_120_element_native_relative_setting_face_group_is_an_exact_Z2_extension_of_the_60_element_single_analyzer_sector_projective_symmetry_group_with_the_even_subgroup_preserving_each_character_sector_and_the_odd_coset_exchanging_B_plus3_and_B_minus3",
+  "version": 1
+}
