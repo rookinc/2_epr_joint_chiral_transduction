@@ -1,0 +1,88 @@
+{
+  "artifact_id": "epr_joint_chiral_tensor_consistency_003",
+  "artifact_sha256": "6f3abbd19b36414418549b956e78ccd73d24537a139ca603c8c13bf584a880a4",
+  "audit_pass": true,
+  "boundary": {
+    "compatibility_fixed_locus_is_not_complex_linear": true,
+    "compatibility_kernel_is_not_yet_a_Bell_resource": true,
+    "compatibility_kernel_is_not_yet_a_unique_joint_line": true,
+    "compatible_projective_ray_space_is_RP3": true,
+    "no_Born_rule_assumed": true,
+    "no_CHSH_claim": true,
+    "no_probability_law": true,
+    "no_singlet_inserted": true,
+    "point_level_tau_equality_does_not_imply_full_Hilbert_operator_equality": true
+  },
+  "checks": {
+    "Alice_S_does_not_preserve_plus_sheet": true,
+    "Alice_S_maps_plus_relations_to_minus": true,
+    "Bob_S_does_not_preserve_plus_sheet": true,
+    "Bob_S_maps_plus_relations_to_minus": true,
+    "J_square_minus_identity": true,
+    "SA_and_SB_commute_as_real_maps": true,
+    "S_anticommutes_with_J": true,
+    "S_square_identity": true,
+    "audit_002_passed": true,
+    "audit_002_selected_S1": true,
+    "audit_002_selected_native_a": true,
+    "compatibility_fixed_locus_is_not_complex_linear": true,
+    "compatibility_fixed_real_dimension_is_4": true,
+    "compatibility_kernel_equals_C_fixed_locus_by_dimension": true,
+    "compatibility_kernel_is_nonzero": true,
+    "compatibility_kernel_real_dimension_is_4": true,
+    "full_tensor_local_presentations_are_not_identical": true,
+    "opposite_chiral_relation_rank_8": true,
+    "opposite_chiral_tensor_real_dim_8": true,
+    "presentation_difference_factorizes_through_C": true,
+    "same_chiral_relation_rank_8": true,
+    "same_chiral_tensor_real_dim_8": true,
+    "two_sided_antifixed_real_dimension_is_4": true,
+    "two_sided_fixed_real_dimension_is_4": true,
+    "two_sided_structure_anticommutes_with_joint_J": true,
+    "two_sided_structure_preserves_plus_sheet": true,
+    "two_sided_structure_square_identity": true
+  },
+  "earned_statement": "The native G1800 chiral torsor does not automatically promote to equality of the two one-sided S1 actions on the entire two-face Hilbert tensor product. Each local S1 exchanges the same-chirality and opposite-chirality tensor sheets. Their disagreement factors exactly as SA(I-C_AB), where C_AB=SA SB. Therefore the states on which the Alice-side and Bob-side presentations agree are exactly the fixed locus of C_AB on Q_plus. This compatibility locus has real dimension four. Because C_AB anticommutes with the joint complex structure, the fixed locus is a real form rather than a complex two-dimensional subspace. Its projective rays form RP^3 inside the ambient CP^3. A further native preparation condition is required to select a distinguished projective ray.",
+  "local_structure": {
+    "anti_complex_reflection": "S1 = sigma_x K",
+    "complex_dimension": 2,
+    "complex_structure": "J_F",
+    "real_dimension": 4
+  },
+  "next_gate": "Search the exact RP3 compatibility locus for a native preparation selector. Test whether registered joint orientation, deck history, or local closure selects a distinguished projective ray without using Bell score, singlet resemblance, or Born weighting as the selector.",
+  "one_sided_transduction": {
+    "Alice": "S1_A tensor I maps Q_plus to Q_minus",
+    "Bob": "I tensor S1_B maps Q_plus to Q_minus",
+    "J_invariant": false,
+    "compatibility_space_type": "real fixed locus of C_AB",
+    "complex_dimension": null,
+    "consistency_kernel_real_dimension": 4,
+    "difference_induced_rank": 4,
+    "full_tensor_presentations_identical": false,
+    "projective_ray_space": "RP^3 inside CP^3"
+  },
+  "source_audit": "epr_native_deck_face_chiral_transduction_002",
+  "tensor_sheets": {
+    "opposite_chirality": {
+      "complex_dimension": 4,
+      "real_dimension": 8,
+      "relation": "J_A tensor I + I tensor J_B",
+      "relation_rank": 8
+    },
+    "same_chirality": {
+      "complex_dimension": 4,
+      "real_dimension": 8,
+      "relation": "J_A tensor I - I tensor J_B",
+      "relation_rank": 8
+    }
+  },
+  "two_sided_structure": {
+    "antifixed_real_dimension": 4,
+    "complex_character": "anti-complex on Q_plus",
+    "fixed_real_dimension": 4,
+    "operator": "S1_A tensor S1_B",
+    "square": "+I"
+  },
+  "verdict": "g1800_chiral_torsor_induces_two_distinct_local_Hilbert_presentations_with_four_real_dimensional_consistency_kernel",
+  "version": 1
+}
