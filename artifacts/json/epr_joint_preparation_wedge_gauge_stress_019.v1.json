@@ -1,0 +1,131 @@
+{
+  "artifact_id": "epr_joint_preparation_wedge_gauge_stress_019",
+  "artifact_sha256": "71798cb59c64a063b6f30c24d15b720b01b1aec00a79171f77d6421bd253671b",
+  "audit_pass": true,
+  "boundary": {
+    "Born_rule_not_used": true,
+    "CHSH_not_yet_derived_from_receipt_distribution": true,
+    "analyzer_settings_not_used": true,
+    "branch_classifier_descends_to_G1800": true,
+    "branch_counts_not_probabilities": true,
+    "line_label_gauge_covariance_closed": true,
+    "no_signaling_not_yet_tested": true,
+    "nonzero_branch_is_canonical_EPR_line": true,
+    "pre_setting_branch_classifier_constructed": true,
+    "source_not_yet_proved_to_prepare_only_nonzero_branch": true,
+    "source_weighting_not_yet_derived": true,
+    "zero_branch_retained": true
+  },
+  "checks": {
+    "Audit009_passed": true,
+    "Audit013_odd_branch_rank1": true,
+    "Audit013_passed": true,
+    "Audit016_passed": true,
+    "Audit018_passed": true,
+    "AutG60_row_count_480": true,
+    "G1800_state_count_1800": true,
+    "a_acts_as_block_involution": true,
+    "a_closes_on_all_240_decorated_rows": true,
+    "a_is_60_point_permutation": true,
+    "a_is_fixed_point_free": true,
+    "a_is_involution": true,
+    "a_maps_each_phase_state_uniquely": true,
+    "a_phase_action_is_involution": true,
+    "a_preserves_face_carrier_at_phase_level": true,
+    "all_S2_line_gauge_covariance_tests_pass": true,
+    "block_row_count_24": true,
+    "branch_classifier_descends_through_diagonal_a": true,
+    "decorated_a_action_is_free": true,
+    "decorated_a_action_is_involution": true,
+    "decorated_joint_quotient_count_28800": true,
+    "decorated_one_wing_row_count_240": true,
+    "ell_has_48_phase_mode_rows": true,
+    "line_gauge_test_count_9216": true,
+    "no_postselection_required_for_classifier": true,
+    "nonzero_branch_maps_to_rank1_odd_sector": true,
+    "nonzero_branch_retained": true,
+    "one_wing_line_profile_120_120": true,
+    "phase_mode_slot_count_48": true,
+    "quotient_branch_counts_balance_14400_14400": true,
+    "raw_branch_counts_balance_28800_28800": true,
+    "raw_two_wing_count_57600": true,
+    "sixteen_decorated_presentations_per_G1800_state": true,
+    "twelve_phase_partitions": true,
+    "two_lines_per_phase_state": true,
+    "zero_branch_retained": true
+  },
+  "earned_statement": "The exact 240-row phase-decorated one-wing boundary domain produces 57,600 ordered two-wing presentations. The native diagonal-a action is free on this domain and reduces it to 28,800 phase-decorated G1800 boundary classes over the same 1,800 common states. The Audit-018 projective-line map gives a complete pre-setting branch classifier: equal transported CP1 lines give zero antisymmetric wedge, while unequal lines give nonzero wedge. The classifier descends exactly through the diagonal-a quotient. In the selected flat reference gauge the quotient contains both branches explicitly; the nonzero branch lands on the unique rank-one odd EPR line already closed by Audits 006-013. Exhaustive S2 line-label gauge stress confirms that equal versus unequal is unchanged when local line labels and the pair transition transform covariantly. Both zero and nonzero branches remain in the complete preparation domain.",
+  "gauge_stress": {
+    "covariance_law": "ell_A'=gamma_A ell_A; ell_B'=gamma_B ell_B; T_AB'=gamma_A T_AB gamma_B^-1",
+    "equal_versus_unequal_invariant": true,
+    "failure_count": 0,
+    "local_gauge_pair_count_per_mode_pair": 4,
+    "native_reference_line_label_group": "S2",
+    "ordered_phase_mode_pair_count": 2304,
+    "phase_mode_pair_count": 48,
+    "test_count": 9216
+  },
+  "native_a_action": {
+    "automorphism_index": 326,
+    "branch_descent_failure_count": 0,
+    "decorated_action_free": true,
+    "epsilon_map_profile": {
+      "(-1, -1)": 6,
+      "(1, 1)": 6
+    },
+    "phase_state_map": {
+      "0": 0,
+      "1": 1,
+      "10": 10,
+      "11": 11,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9
+    }
+  },
+  "next_gate": "Carry both preparation branches into the local analyzer apparatus. Construct the setting-dependent local transduction and complete receipt alphabet without discarding the zero-wedge branch. Then derive native trial weights or frequencies and test normalization, no-signaling, and CHSH from the complete receipt distribution.",
+  "one_wing": {
+    "phase_decorated_row_count": 240,
+    "reference_line_profile": {
+      "0": 120,
+      "1": 120
+    }
+  },
+  "two_wing_domain": {
+    "G1800_state_count": 1800,
+    "decorated_presentations_per_G1800_state_profile": {
+      "16": 1800
+    },
+    "diagonal_a_quotient_count": 28800,
+    "raw_phase_decorated_pair_count": 57600
+  },
+  "verdict": "phase_decorated_G1800_boundary_has_a_complete_setting_independent_gauge_covariant_zero_nonzero_wedge_branch_classifier_with_nonzero_branch_on_the_canonical_rank1_EPR_line",
+  "version": 1,
+  "wedge_classifier": {
+    "criterion": "zero iff reference projective lines are equal; nonzero iff reference projective lines differ",
+    "nonzero_image": "canonical rank-one EPR line",
+    "per_G1800_state_branch_profile": {
+      "(0, 16)": 16,
+      "(10, 6)": 196,
+      "(12, 4)": 112,
+      "(16, 0)": 16,
+      "(4, 12)": 112,
+      "(6, 10)": 196,
+      "(8, 8)": 1152
+    },
+    "quotient_branch_profile": {
+      "nonzero_wedge": 14400,
+      "zero_wedge": 14400
+    },
+    "raw_branch_profile": {
+      "nonzero_wedge": 28800,
+      "zero_wedge": 28800
+    },
+    "zero_branch": "retained preparation-degenerate branch"
+  }
+}
