@@ -1,0 +1,59 @@
+{
+  "artifact_id": "epr_native_joint_contraction_kernel_040b",
+  "artifact_sha256": "1887a19b8d148ba8c8a9477c70a5e2535e478bca0baaebd2aebcdb7e1b0c9c09",
+  "audit_pass": true,
+  "boundary": {
+    "Born_frequency_law_derived": false,
+    "common_adjoint_face_binding_still_conditional": true,
+    "joint_operator_kernel_is_setting_independent": true,
+    "native_joint_operator_bilinearity_closed": true,
+    "native_trial_frequency_law_derived": false,
+    "operator_contraction_identified_with_empirical_correlation": false,
+    "probability_table_promoted_from_operator_kernel": false,
+    "remaining_gate": "derive the operational receipt rule identifying registered binary correlation with the canonical joint operator contraction"
+  },
+  "checks": {
+    "Audit006_passes": true,
+    "Audit006_projector_identity_replayed": true,
+    "Audit037_B_plus3_Gram_available": true,
+    "Audit037_passes": true,
+    "Audit038_native_Gram_matches": true,
+    "Audit038_passes": true,
+    "Podd_idempotent": true,
+    "Podd_trace_one": true,
+    "all_Pauli_traceless": true,
+    "full_M2_contraction_identity_exact": true,
+    "left_local_contractions_vanish": true,
+    "operator_contraction_CHSH_matches_Audit038": true,
+    "operator_contraction_visibility_matches_Audit038": true,
+    "right_local_contractions_vanish": true,
+    "source_contraction_is_minus_Hilbert_Schmidt_on_traceless_space": true
+  },
+  "earned_statement": "The canonical native exchange-odd projector already supplies the bilinear joint operator kernel required by Audit 037. Direct exact evaluation on the complete 2x2 matrix-unit basis gives Gamma(A,B)=Tr[Podd(A tensor B)]=1/2(Tr(A)Tr(B)-Tr(AB)). On the traceless Hermitian local observable space this reduces to Gamma(A,B)=-1/2 Tr(AB). Local one-wing contractions vanish. Therefore under the existing common-adjoint analyzer interface the native B_plus3 Gram geometry gives Gamma_ii=-1 and Gamma_ij=-S_ij/sqrt(5), exactly the visibility and CHSH kernel isolated in Audits 037-038. No probability or Born frequency interpretation is used in this derivation.",
+  "joint_contraction": {
+    "Pauli_kernel": "-delta_ij",
+    "definition": "Gamma(A,B)=Tr[Podd(A tensor B)]",
+    "general_identity": "Gamma(A,B)=1/2*(Tr(A)Tr(B)-Tr(AB))",
+    "left_local_contraction": 0,
+    "right_local_contraction": 0,
+    "traceless_identity": "Gamma(A,B)=-1/2*Tr(AB)"
+  },
+  "native_analyzer_descent": {
+    "frozen_quartet_CHSH": "1+3/sqrt(5)",
+    "frozen_quartet_CHSH_numeric": 2.341640786499874,
+    "interface": "Audit022 conditional common-adjoint lift",
+    "joint_operator_kernel": "Gamma_ii=-1; Gamma_ij=-S_ij/sqrt(5)",
+    "native_Gram": "I+C/sqrt(5)",
+    "visibility": "1/sqrt(5)",
+    "visibility_numeric": 0.4472135954999579
+  },
+  "next_gate": "Determine whether the finite registered face apparatus reads the canonical joint contraction Gamma as its binary outcome correlation. If that operational identification is native, combine it with Audit036 zero marginals to obtain the unique normalized joint receipt table. Otherwise retain the operator kernel/frequency distinction explicitly.",
+  "source_projector": {
+    "form": "Podd=(I-X)/2",
+    "quaternionic_form": "Podd=(I+K1xK1+K2xK2+K3xK3)/4",
+    "rank": 1,
+    "trace": 1
+  },
+  "verdict": "the_native_canonical_exchange_odd_projector_supplies_an_exact_bilinear_joint_operator_contraction_whose_restriction_to_the_traceless_local_observable_space_is_minus_the_normalized_trace_inner_product_and_therefore_under_the_existing_common_adjoint_interface_reproduces_the_native_1_over_sqrt5_analyzer_kernel",
+  "version": 1
+}
