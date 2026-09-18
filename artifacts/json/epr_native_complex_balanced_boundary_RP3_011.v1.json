@@ -1,0 +1,58 @@
+{
+  "artifact_id": "epr_native_complex_balanced_boundary_RP3_011",
+  "artifact_sha256": "34cf37c2ccae71aca171d2e0c65c4f0074571257146596179f726b7b2e84f248",
+  "audit_pass": true,
+  "boundary": {
+    "RP3_recovered_from_native_incidence": true,
+    "canonical_rank_one_line_still_requires_selector_or_execution": true,
+    "native_to_Hilbert_compatibility_bridge_closed": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_probability_law": true,
+    "preparation_dynamics_not_yet_closed": true
+  },
+  "checks": {
+    "C_anticommutes_with_balancing_operator": true,
+    "C_antifixed_dimension_8": true,
+    "C_fixed_dimension_8": true,
+    "J_square_minus_identity": true,
+    "Q_plus_C_fixed_dimension_4": true,
+    "Q_plus_real_dimension_8": true,
+    "S_anticommutes_with_J": true,
+    "S_square_identity": true,
+    "audit_003_RP3_compatibility": true,
+    "audit_003_passed": true,
+    "audit_007_passed": true,
+    "audit_010_native_fixed_dimension_8": true,
+    "audit_010_passed": true,
+    "exactly_matches_Audit003_compatibility_dimension": true,
+    "fixed_locus_is_real_form_not_complex_subspace": true,
+    "fixed_relation_dimension_4": true,
+    "matches_Audit010_native_fixed_dimension": true,
+    "native_balanced_fixed_dimension_4": true,
+    "native_boundary_recovers_RP3": true,
+    "projective_compatibility_dimension_3": true,
+    "same_chirality_relation_rank_8": true
+  },
+  "complex_balancing": {
+    "fixed_relation_real_dimension": 4,
+    "full_balanced_quotient_real_dimension": 8,
+    "relation": "J_A tensor I - I tensor J_B",
+    "relation_rank": 8
+  },
+  "earned_statement": "The four-real-dimensional compatibility locus first found abstractly in Audit 003 is now reconstructed from the native G1800 boundary-incidence quotient. Audit 010 supplies the eight-real-dimensional simultaneous-S1 sector directly from native diagonal-a boundary identification. Imposing only the already-earned Program-01 same-chirality complex balancing relation removes a four-real-dimensional fixed relation subspace, leaving a four-real-dimensional real form. Its projective ray space is exactly RP3. Thus the Audit-003 compatibility geometry is not an externally imposed Hilbert condition; it is the complex-balanced form of the native common-domain boundary quotient.",
+  "native_boundary_input": {
+    "native_fixed_real_dimension": 8,
+    "simultaneous_operator": "C_AB = S1_A tensor S1_B",
+    "source_audit": "epr_g1800_joint_boundary_incidence_quotient_010"
+  },
+  "next_gate": "Push the canonical rank-one projector from Audits 006-007 onto this now-native RP3 boundary space and determine whether any native setting-independent boundary closure or preparation operation has that projector as its image. The remaining gap is execution of the canonical line, not derivation of the joint compatibility geometry.",
+  "result": {
+    "balanced_native_compatibility_real_dimension": 4,
+    "matches_Audit003": true,
+    "projective_real_dimension": 3,
+    "projective_space": "RP^3"
+  },
+  "verdict": "native_G1800_boundary_incidence_quotient_plus_Program01_complex_balancing_recovers_exact_Audit003_RP3",
+  "version": 1
+}
