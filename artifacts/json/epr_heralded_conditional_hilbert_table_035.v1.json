@@ -1,0 +1,236 @@
+{
+  "CHSH": {
+    "alternate_exact": "1 + 3/sqrt(5)",
+    "exact": "1 + 3/5*sqrt(5)",
+    "exceeds_2": true,
+    "expression": "E00 + E01 + E10 - E11",
+    "numeric": 2.341640786499874
+  },
+  "artifact_id": "epr_heralded_conditional_hilbert_table_035",
+  "artifact_sha256": "acd445646e3e96eb2840c8c28a155020bb7928fc636b025073cdc0049de51a12",
+  "audit_pass": true,
+  "boundary": {
+    "Born_frequency_law_derived": false,
+    "attempt_frequency_law_derived": false,
+    "common_adjoint_lift_is_conditional": true,
+    "complete_local_face_instrument_derived": false,
+    "conditional_Hilbert_probability_control": true,
+    "control_table_CHSH_exceeds_2": true,
+    "control_table_no_signaling": true,
+    "control_table_standard_Bell_local_factorization_excluded": true,
+    "native_receipt_frequency_law_derived": false,
+    "native_relative_Alice_Bob_adjoint_frame_derived": false,
+    "physical_source_rate_derived": false,
+    "pre_setting_EPR_herald_closed": true
+  },
+  "checks": {
+    "Audit022_Born_frequency_law_not_derived": true,
+    "Audit022_common_adjoint_lift_is_conditional": true,
+    "Audit022_passes": true,
+    "Audit034C_passes": true,
+    "CHSH_exactly_1_plus_3_over_sqrt5": true,
+    "CHSH_exceeds_2": true,
+    "all_conditional_probabilities_nonnegative": true,
+    "all_four_setting_tables_normalized": true,
+    "all_local_marginals_exactly_one_half": true,
+    "conditional_table_no_signaling_exact": true,
+    "frozen_quartet_is_Audit022_max_example": true,
+    "signed_matrix_diagonal_is_one": true,
+    "signed_matrix_is_6_by_6": true,
+    "signed_matrix_is_symmetric": true,
+    "source_herald_is_pre_setting": true,
+    "source_herald_lands_on_canonical_EPR_line": true,
+    "standard_Bell_local_factorization_excluded_for_control_table": true
+  },
+  "conditional_interface": {
+    "Alice_settings": [
+      0,
+      1
+    ],
+    "Bob_settings": [
+      0,
+      2
+    ],
+    "common_adjoint_lift": "conditional interface inherited from Audit022",
+    "local_observable": "O_i=n_i dot sigma",
+    "outcome_signs": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "probability_rule": "P(a,b|x,y,h=1)=(1+a*b*E_xy)/4",
+    "sector": "B_plus3",
+    "singlet_correlation_rule": "E_xy=-n_x dot n_y"
+  },
+  "earned_statement": "Audit 034C supplies a setting-independent herald h=1 whose nonzero preparation branch is the canonical antisymmetric EPR line. Freezing the native Audit-022 B_plus3 quartet Alice=(0,1), Bob=(0,2), with no outcome-sign relabeling, and supplying Audit 022's conditional common-adjoint singlet interface gives four exact binary joint probability tables. Every table is positive and normalized, all Alice and Bob marginals equal one half independently of the remote setting, and the exact CHSH value is 1+3/sqrt(5)>2. This is a conditional Hilbert probability control. It does not derive the finite native receipt-frequency law.",
+  "next_gate": "Derive the four joint outcome weights from finite native receipt mechanics on the h=1 heralded preparation domain. The target table is now fixed exactly. Do not use the target probabilities as selector input. A native construction must reproduce normalization and remote-setting-independent marginals before its CHSH value is evaluated.",
+  "signed_Gram_matrix_B_plus3": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+    ]
+  ],
+  "source": {
+    "analyzer_settings_used_to_define_herald": false,
+    "herald_formula": "h=(1-relative_line_relation)/2",
+    "heralded_state": "canonical antisymmetric line [|01>-|10>]",
+    "pre_setting_herald": "Audit034C h=1"
+  },
+  "tables": {
+    "A0B0": {
+      "Alice_marginals_exact": {
+        "+1": "1/2",
+        "-1": "1/2"
+      },
+      "Alice_setting": 0,
+      "Bob_marginals_exact": {
+        "+1": "1/2",
+        "-1": "1/2"
+      },
+      "Bob_setting": 0,
+      "Gram_sign": 1,
+      "correlation_exact": "-1",
+      "correlation_numeric": -1.0,
+      "probabilities_exact": {
+        "++": "0",
+        "+-": "1/2",
+        "-+": "1/2",
+        "--": "0"
+      },
+      "probabilities_numeric": {
+        "++": 0.0,
+        "+-": 0.5,
+        "-+": 0.5,
+        "--": 0.0
+      }
+    },
+    "A0B1": {
+      "Alice_marginals_exact": {
+        "+1": "1/2",
+        "-1": "1/2"
+      },
+      "Alice_setting": 0,
+      "Bob_marginals_exact": {
+        "+1": "1/2",
+        "-1": "1/2"
+      },
+      "Bob_setting": 2,
+      "Gram_sign": 1,
+      "correlation_exact": "-1/5*sqrt(5)",
+      "correlation_numeric": -0.447213595499958,
+      "probabilities_exact": {
+        "++": "1/4 - 1/20*sqrt(5)",
+        "+-": "1/4 + 1/20*sqrt(5)",
+        "-+": "1/4 + 1/20*sqrt(5)",
+        "--": "1/4 - 1/20*sqrt(5)"
+      },
+      "probabilities_numeric": {
+        "++": 0.1381966011250105,
+        "+-": 0.36180339887498947,
+        "-+": 0.36180339887498947,
+        "--": 0.1381966011250105
+      }
+    },
+    "A1B0": {
+      "Alice_marginals_exact": {
+        "+1": "1/2",
+        "-1": "1/2"
+      },
+      "Alice_setting": 1,
+      "Bob_marginals_exact": {
+        "+1": "1/2",
+        "-1": "1/2"
+      },
+      "Bob_setting": 0,
+      "Gram_sign": 1,
+      "correlation_exact": "-1/5*sqrt(5)",
+      "correlation_numeric": -0.447213595499958,
+      "probabilities_exact": {
+        "++": "1/4 - 1/20*sqrt(5)",
+        "+-": "1/4 + 1/20*sqrt(5)",
+        "-+": "1/4 + 1/20*sqrt(5)",
+        "--": "1/4 - 1/20*sqrt(5)"
+      },
+      "probabilities_numeric": {
+        "++": 0.1381966011250105,
+        "+-": 0.36180339887498947,
+        "-+": 0.36180339887498947,
+        "--": 0.1381966011250105
+      }
+    },
+    "A1B1": {
+      "Alice_marginals_exact": {
+        "+1": "1/2",
+        "-1": "1/2"
+      },
+      "Alice_setting": 1,
+      "Bob_marginals_exact": {
+        "+1": "1/2",
+        "-1": "1/2"
+      },
+      "Bob_setting": 2,
+      "Gram_sign": -1,
+      "correlation_exact": "1/5*sqrt(5)",
+      "correlation_numeric": 0.447213595499958,
+      "probabilities_exact": {
+        "++": "1/4 + 1/20*sqrt(5)",
+        "+-": "1/4 - 1/20*sqrt(5)",
+        "-+": "1/4 - 1/20*sqrt(5)",
+        "--": "1/4 + 1/20*sqrt(5)"
+      },
+      "probabilities_numeric": {
+        "++": 0.36180339887498947,
+        "+-": 0.1381966011250105,
+        "-+": 0.1381966011250105,
+        "--": 0.36180339887498947
+      }
+    }
+  },
+  "verdict": "the_034C_pre_setting_EPR_herald_combined_with_the_conditional_common_adjoint_singlet_rule_and_one_frozen_native_Audit022_quartet_gives_an_exact_normalized_no_signaling_probability_table_with_CHSH_1_plus_3_over_sqrt5",
+  "version": 1
+}
