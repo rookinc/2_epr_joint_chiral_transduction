@@ -1,0 +1,566 @@
+{
+  "artifact_id": "epr_native_face_projective_line_partition_017",
+  "artifact_sha256": "87b447b664c44edb3a8d9399c8919d99892ba5044e89267b4c2b0bd063b35bd7",
+  "audit_pass": true,
+  "boundary": {
+    "canonical_face_projective_line_partitions_derived": true,
+    "common_g_not_identified_with_S1": true,
+    "epsilon_partition_assignment_only_up_to_global_label_swap": true,
+    "full_48_entry_ell_not_yet_serialized": true,
+    "joint_wedge_census_not_yet_run": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_probability_law": true,
+    "r1_not_identified_with_S1": true,
+    "raw_Hilbert_transport_matrix_not_selected": true,
+    "raw_Pauli_frame_not_selected": true,
+    "six_face_global_transport_not_yet_closed": true
+  },
+  "canonical_face": {
+    "carrier_index": 0,
+    "mode_rows": [
+      {
+        "event_anchor_label": 0,
+        "five_state_block": [
+          3,
+          25,
+          33,
+          44,
+          47
+        ],
+        "local_position": 0,
+        "sign": "negative",
+        "signed_block_index": 0
+      },
+      {
+        "event_anchor_label": 0,
+        "five_state_block": [
+          6,
+          16,
+          23,
+          50,
+          57
+        ],
+        "local_position": 1,
+        "sign": "positive",
+        "signed_block_index": 1
+      },
+      {
+        "event_anchor_label": 9,
+        "five_state_block": [
+          1,
+          28,
+          31,
+          42,
+          45
+        ],
+        "local_position": 2,
+        "sign": "positive",
+        "signed_block_index": 14
+      },
+      {
+        "event_anchor_label": 9,
+        "five_state_block": [
+          9,
+          18,
+          20,
+          52,
+          59
+        ],
+        "local_position": 3,
+        "sign": "negative",
+        "signed_block_index": 15
+      }
+    ],
+    "signed_block_indices": [
+      0,
+      1,
+      14,
+      15
+    ]
+  },
+  "checks": {
+    "201FK_passes": true,
+    "201FV_passes": true,
+    "Audit016_passes": true,
+    "AutG60_cache_has_480_automorphisms": true,
+    "AutG60_rows_are_60_point_permutations": true,
+    "E2_projector_rank_2": true,
+    "J_E_J_S_zero": true,
+    "J_E_square_minus_E2_projector": true,
+    "J_S_J_E_zero": true,
+    "J_S_square_minus_scalar_projector": true,
+    "R2_minus_on_E2_plane": true,
+    "R2_plus_on_scalar_plane": true,
+    "R_fourth_identity": true,
+    "agrees_with_201FV_positive_orthogonality": true,
+    "all_candidates_orthogonal": true,
+    "all_candidates_skew": true,
+    "all_candidates_square_to_minus_identity": true,
+    "canonical_carrier_is_zero": true,
+    "canonical_face_has_four_blocks": true,
+    "carrier_action_is_well_defined": true,
+    "chi_axis_R_eigenvalue_minus1": true,
+    "chosen_rotation_is_literal_four_cycle": true,
+    "each_partition_occurs_for_two_overall_orientations": true,
+    "every_complex_line_pairs_one_positive_one_negative_mode": true,
+    "exactly_two_distinct_projective_line_partitions": true,
+    "exactly_two_order4_local_rotations": true,
+    "face_stabilizer_order_80": true,
+    "four_complex_structure_candidates": true,
+    "local_D8_image_order_8": true,
+    "local_D8_order_profile": true,
+    "local_action_kernel_order_10": true,
+    "matches_201FV_kernel_order": true,
+    "matches_201FV_local_D8_order": true,
+    "negative_event_modes_are_distinct_complex_lines_for_both_phases": true,
+    "positive_event_modes_are_distinct_complex_lines_for_both_phases": true,
+    "scalar_projector_rank_2": true,
+    "signed_block_action_closes": true,
+    "signed_block_audit_passes": true,
+    "trivial_and_chi_axes_orthogonal": true,
+    "trivial_axis_R_eigenvalue_plus1": true
+  },
+  "complex_structure_candidates": [
+    {
+      "E2_orientation": -1,
+      "J_orthogonal": true,
+      "J_skew": true,
+      "J_squared_minus_identity": true,
+      "line_partition_local_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "matrix": [
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0",
+          "0"
+        ]
+      ],
+      "scalar_orientation": -1
+    },
+    {
+      "E2_orientation": 1,
+      "J_orthogonal": true,
+      "J_skew": true,
+      "J_squared_minus_identity": true,
+      "line_partition_local_positions": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "matrix": [
+        [
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ]
+      ],
+      "scalar_orientation": -1
+    },
+    {
+      "E2_orientation": -1,
+      "J_orthogonal": true,
+      "J_skew": true,
+      "J_squared_minus_identity": true,
+      "line_partition_local_positions": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "matrix": [
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "scalar_orientation": 1
+    },
+    {
+      "E2_orientation": 1,
+      "J_orthogonal": true,
+      "J_skew": true,
+      "J_squared_minus_identity": true,
+      "line_partition_local_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "matrix": [
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "scalar_orientation": 1
+    }
+  ],
+  "earned_statement": "The four native signed event-mode basis objects on the canonical face carry the exact four-point permutation representation of a D8 local image of the order-80 face stabilizer with kernel order ten. Its real permutation module decomposes intrinsically as 1 + chi + E2. The order-four square rotation determines the E2 complex orientation while the trivial and chi axes determine the scalar-plane complex orientation. The four sign choices produce the four Program-01 orthogonal complex-structure candidates but only two distinct projective complex-line partitions. Every line in both partitions contains exactly one positive and one negative native event mode; consequently the two positive event modes remain on distinct complex lines for either relative complex orientation, in agreement with 201FV. This derives the canonical-face projective-line content without selecting a transverse Pauli frame or a raw Hilbert transport matrix.",
+  "native_local_D8": {
+    "chosen_cycle": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "chosen_order4_rotation": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "face_stabilizer_order": 80,
+    "image_order": 8,
+    "image_permutations": [
+      {
+        "native_realization_count": 10,
+        "order": 1,
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "native_realization_count": 10,
+        "order": 2,
+        "permutation": [
+          0,
+          2,
+          1,
+          3
+        ]
+      },
+      {
+        "native_realization_count": 10,
+        "order": 2,
+        "permutation": [
+          1,
+          0,
+          3,
+          2
+        ]
+      },
+      {
+        "native_realization_count": 10,
+        "order": 4,
+        "permutation": [
+          1,
+          3,
+          0,
+          2
+        ]
+      },
+      {
+        "native_realization_count": 10,
+        "order": 4,
+        "permutation": [
+          2,
+          0,
+          3,
+          1
+        ]
+      },
+      {
+        "native_realization_count": 10,
+        "order": 2,
+        "permutation": [
+          2,
+          3,
+          0,
+          1
+        ]
+      },
+      {
+        "native_realization_count": 10,
+        "order": 2,
+        "permutation": [
+          3,
+          1,
+          2,
+          0
+        ]
+      },
+      {
+        "native_realization_count": 10,
+        "order": 2,
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ]
+      }
+    ],
+    "kernel_order": 10,
+    "order_profile": {
+      "1": 1,
+      "2": 5,
+      "4": 2
+    },
+    "orientation_choice_is_presentation_only": true
+  },
+  "next_gate": "Transport the two canonical-face projective-line partitions over all six native face carriers using the current global/local phase bridge. Test that the kernel of the phase character makes the transported partition independent of transporter choice, leaving only one global epsilon-label swap. Then serialize ell on all forty-eight phase-mode pairs.",
+  "projective_line_result": {
+    "all_lines_pair_opposite_event_signs": true,
+    "distinct_partition_count": 2,
+    "partitions": [
+      {
+        "lines": [
+          {
+            "event_anchor_labels": [
+              0,
+              0
+            ],
+            "local_positions": [
+              0,
+              1
+            ],
+            "signed_block_indices": [
+              0,
+              1
+            ],
+            "signs": [
+              "negative",
+              "positive"
+            ]
+          },
+          {
+            "event_anchor_labels": [
+              9,
+              9
+            ],
+            "local_positions": [
+              2,
+              3
+            ],
+            "signed_block_indices": [
+              14,
+              15
+            ],
+            "signs": [
+              "positive",
+              "negative"
+            ]
+          }
+        ],
+        "multiplicity_among_four_J_candidates": 2
+      },
+      {
+        "lines": [
+          {
+            "event_anchor_labels": [
+              0,
+              9
+            ],
+            "local_positions": [
+              0,
+              2
+            ],
+            "signed_block_indices": [
+              0,
+              14
+            ],
+            "signs": [
+              "negative",
+              "positive"
+            ]
+          },
+          {
+            "event_anchor_labels": [
+              0,
+              9
+            ],
+            "local_positions": [
+              1,
+              3
+            ],
+            "signed_block_indices": [
+              1,
+              15
+            ],
+            "signs": [
+              "positive",
+              "negative"
+            ]
+          }
+        ],
+        "multiplicity_among_four_J_candidates": 2
+      }
+    ],
+    "phase_assignment_status": "two native relative-orientation partitions derived on canonical face; assignment of epsilon=+1 versus epsilon=-1 is defined only up to the already-admitted global phase-label swap",
+    "positive_modes_distinct_in_both_partitions": true
+  },
+  "representation_decomposition": {
+    "E2_plane_dimension": 2,
+    "J_E": [
+      [
+        "0",
+        "-1/2",
+        "1/2",
+        "0"
+      ],
+      [
+        "1/2",
+        "0",
+        "0",
+        "-1/2"
+      ],
+      [
+        "-1/2",
+        "0",
+        "0",
+        "1/2"
+      ],
+      [
+        "0",
+        "1/2",
+        "-1/2",
+        "0"
+      ]
+    ],
+    "J_S": [
+      [
+        "0",
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      [
+        "-1/2",
+        "0",
+        "0",
+        "-1/2"
+      ],
+      [
+        "-1/2",
+        "0",
+        "0",
+        "-1/2"
+      ],
+      [
+        "0",
+        "1/2",
+        "1/2",
+        "0"
+      ]
+    ],
+    "chi_axis": [
+      "1",
+      "-1",
+      "-1",
+      "1"
+    ],
+    "real_module": "1 + chi + E2",
+    "scalar_plane_dimension": 2,
+    "trivial_axis": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "verdict": "canonical_native_face_D8_permutation_module_derives_exactly_two_relative_complex_line_partitions_each_pairing_one_positive_and_one_negative_event_mode",
+  "version": 1
+}
