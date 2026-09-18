@@ -1,0 +1,775 @@
+{
+  "artifact_id": "epr_reference_gauge_projective_line_map_018",
+  "artifact_sha256": "34dd797f36eea15e02735f04ab6f791b92db8236f5bb62c6e8e28e6985f60fd4",
+  "audit_pass": true,
+  "boundary": {
+    "a_induced_S1_retained_as_distinct_operator": true,
+    "absolute_Pauli_axis_not_selected": true,
+    "ell_serialized_in_one_explicit_flat_reference_gauge": true,
+    "joint_preparation_census_not_yet_run": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_probability_law": true,
+    "raw_Hilbert_transport_matrix_not_selected": true,
+    "raw_reference_line_names_are_gauge_labels": true,
+    "selected_phase_flip_not_identified_with_S1": true,
+    "wedge_zero_nonzero_gauge_stress_not_yet_run": true
+  },
+  "checks": {
+    "201FR_passed": true,
+    "201FU_passed": true,
+    "Audit009_passed": true,
+    "Audit016_passed": true,
+    "Audit017_passed": true,
+    "AutG60_row_count_480": true,
+    "FU_local_transport_has_order2": true,
+    "FU_native_realization_count_10": true,
+    "FU_phase_flip_exchanges_P0_P1": true,
+    "FU_record_says_negative_swapped": true,
+    "FU_record_says_positive_fixed": true,
+    "FU_record_says_unique_selected_transport": true,
+    "FU_transport_not_equal_a_induced_S1": true,
+    "a_induced_S1_swaps_negative_pair": true,
+    "a_induced_S1_swaps_positive_pair": true,
+    "all_480_automorphisms_act_on_signed_blocks": true,
+    "all_480_automorphisms_act_on_six_carriers": true,
+    "all_48_phase_mode_pairs_covered_once": true,
+    "canonical_face_stabilizer_count_80": true,
+    "canonical_partition_count_2": true,
+    "canonical_partitions_are_distinct": true,
+    "each_partition_covers_all_four_local_blocks": true,
+    "eighty_native_transporters_per_face": true,
+    "ell_row_count_48": true,
+    "global_reference_line_profile_24_24": true,
+    "one_positive_one_negative_per_reference_line": true,
+    "one_transporter_independent_phase_pair_object_per_face": true,
+    "phase_flip_local_involution": true,
+    "reference_lines_cover_four_modes": true,
+    "reference_partition_has_two_lines": true,
+    "section_defined_on_all_six_faces": true,
+    "selected_section_matches_native_phase_pair": true,
+    "signed_block_audit_passed": true,
+    "signed_block_count_24": true,
+    "six_carriers_four_blocks_each": true,
+    "two_modes_per_reference_line_in_every_phase_state": true,
+    "two_positive_two_negative_local_modes": true,
+    "unique_FU_local_transport_permutation": true,
+    "unique_identity_automorphism": true
+  },
+  "earned_statement": "Audit 017 supplies the two native projective-line partitions of the four signed event modes on the canonical face. The unique 201FU signed-event-selected same-face phase-flip transport fixes both positive event modes pointwise and swaps the two negative modes; at the projective-line level it exchanges the two relative-orientation partitions exactly. This transport is distinct from the a-induced S1 reflection, which swaps both positive and negative mode pairs. Transporting the unordered two-partition object through all native Aut(G60) maps from the canonical face gives one and only one unordered phase-pair object on each of the six face carriers. Choosing one explicit flat section and using the selected 201FU phase-flip connection therefore serializes ell on all 48 phase-mode pairs into one common reference CP1 gauge. Every phase state has two modes on each reference line, and each reference line contains one positive and one negative event mode.",
+  "ell": {
+    "codomain_in_selected_reference_gauge": "{L0,L1} subset CP1",
+    "domain": "S_12 x M_4",
+    "fully_serialized_in_reference_gauge": true,
+    "phase_state_line_profiles": {
+      "0": {
+        "0": 2,
+        "1": 2
+      },
+      "1": {
+        "0": 2,
+        "1": 2
+      },
+      "10": {
+        "0": 2,
+        "1": 2
+      },
+      "11": {
+        "0": 2,
+        "1": 2
+      },
+      "2": {
+        "0": 2,
+        "1": 2
+      },
+      "3": {
+        "0": 2,
+        "1": 2
+      },
+      "4": {
+        "0": 2,
+        "1": 2
+      },
+      "5": {
+        "0": 2,
+        "1": 2
+      },
+      "6": {
+        "0": 2,
+        "1": 2
+      },
+      "7": {
+        "0": 2,
+        "1": 2
+      },
+      "8": {
+        "0": 2,
+        "1": 2
+      },
+      "9": {
+        "0": 2,
+        "1": 2
+      }
+    },
+    "reference_line_profile": {
+      "0": 24,
+      "1": 24
+    },
+    "row_count": 48,
+    "rows": [
+      {
+        "carrier_index": 0,
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 1,
+        "phase_state_id": 0,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 0
+      },
+      {
+        "carrier_index": 0,
+        "epsilon": 1,
+        "event_anchor_label": 0,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 0,
+        "phase_state_id": 0,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 1
+      },
+      {
+        "carrier_index": 0,
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 15,
+        "phase_state_id": 0,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 14
+      },
+      {
+        "carrier_index": 0,
+        "epsilon": 1,
+        "event_anchor_label": 9,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 14,
+        "phase_state_id": 0,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 15
+      },
+      {
+        "carrier_index": 0,
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 14,
+        "phase_state_id": 1,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 0
+      },
+      {
+        "carrier_index": 0,
+        "epsilon": -1,
+        "event_anchor_label": 0,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 15,
+        "phase_state_id": 1,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 1
+      },
+      {
+        "carrier_index": 0,
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 0,
+        "phase_state_id": 1,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 14
+      },
+      {
+        "carrier_index": 0,
+        "epsilon": -1,
+        "event_anchor_label": 9,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 1,
+        "phase_state_id": 1,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 15
+      },
+      {
+        "carrier_index": 1,
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 3,
+        "phase_state_id": 2,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 2
+      },
+      {
+        "carrier_index": 1,
+        "epsilon": 1,
+        "event_anchor_label": 3,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 2,
+        "phase_state_id": 2,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 3
+      },
+      {
+        "carrier_index": 1,
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 9,
+        "phase_state_id": 2,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 8
+      },
+      {
+        "carrier_index": 1,
+        "epsilon": 1,
+        "event_anchor_label": 6,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 8,
+        "phase_state_id": 2,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 9
+      },
+      {
+        "carrier_index": 1,
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 8,
+        "phase_state_id": 3,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 2
+      },
+      {
+        "carrier_index": 1,
+        "epsilon": -1,
+        "event_anchor_label": 3,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 9,
+        "phase_state_id": 3,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 3
+      },
+      {
+        "carrier_index": 1,
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 2,
+        "phase_state_id": 3,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 8
+      },
+      {
+        "carrier_index": 1,
+        "epsilon": -1,
+        "event_anchor_label": 6,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 3,
+        "phase_state_id": 3,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 9
+      },
+      {
+        "carrier_index": 2,
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 7,
+        "phase_state_id": 4,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 6
+      },
+      {
+        "carrier_index": 2,
+        "epsilon": 1,
+        "event_anchor_label": 5,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 6,
+        "phase_state_id": 4,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 7
+      },
+      {
+        "carrier_index": 2,
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 21,
+        "phase_state_id": 4,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 20
+      },
+      {
+        "carrier_index": 2,
+        "epsilon": 1,
+        "event_anchor_label": 1,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 20,
+        "phase_state_id": 4,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 21
+      },
+      {
+        "carrier_index": 2,
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 20,
+        "phase_state_id": 5,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 6
+      },
+      {
+        "carrier_index": 2,
+        "epsilon": -1,
+        "event_anchor_label": 5,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 21,
+        "phase_state_id": 5,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 7
+      },
+      {
+        "carrier_index": 2,
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 6,
+        "phase_state_id": 5,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 20
+      },
+      {
+        "carrier_index": 2,
+        "epsilon": -1,
+        "event_anchor_label": 1,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 7,
+        "phase_state_id": 5,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 21
+      },
+      {
+        "carrier_index": 3,
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 22,
+        "phase_state_id": 6,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 4
+      },
+      {
+        "carrier_index": 3,
+        "epsilon": 1,
+        "event_anchor_label": 4,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 23,
+        "phase_state_id": 6,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 5
+      },
+      {
+        "carrier_index": 3,
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 4,
+        "phase_state_id": 6,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 22
+      },
+      {
+        "carrier_index": 3,
+        "epsilon": 1,
+        "event_anchor_label": 2,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 5,
+        "phase_state_id": 6,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 23
+      },
+      {
+        "carrier_index": 3,
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 5,
+        "phase_state_id": 7,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 4
+      },
+      {
+        "carrier_index": 3,
+        "epsilon": -1,
+        "event_anchor_label": 4,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 4,
+        "phase_state_id": 7,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 5
+      },
+      {
+        "carrier_index": 3,
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 23,
+        "phase_state_id": 7,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 22
+      },
+      {
+        "carrier_index": 3,
+        "epsilon": -1,
+        "event_anchor_label": 2,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 22,
+        "phase_state_id": 7,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 23
+      },
+      {
+        "carrier_index": 4,
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 16,
+        "phase_state_id": 8,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 10
+      },
+      {
+        "carrier_index": 4,
+        "epsilon": 1,
+        "event_anchor_label": 7,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 17,
+        "phase_state_id": 8,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 11
+      },
+      {
+        "carrier_index": 4,
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 10,
+        "phase_state_id": 8,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 16
+      },
+      {
+        "carrier_index": 4,
+        "epsilon": 1,
+        "event_anchor_label": 10,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 11,
+        "phase_state_id": 8,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 17
+      },
+      {
+        "carrier_index": 4,
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 11,
+        "phase_state_id": 9,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 10
+      },
+      {
+        "carrier_index": 4,
+        "epsilon": -1,
+        "event_anchor_label": 7,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 10,
+        "phase_state_id": 9,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 11
+      },
+      {
+        "carrier_index": 4,
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 17,
+        "phase_state_id": 9,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 16
+      },
+      {
+        "carrier_index": 4,
+        "epsilon": -1,
+        "event_anchor_label": 10,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 16,
+        "phase_state_id": 9,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 17
+      },
+      {
+        "carrier_index": 5,
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 18,
+        "phase_state_id": 10,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 12
+      },
+      {
+        "carrier_index": 5,
+        "epsilon": 1,
+        "event_anchor_label": 8,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 19,
+        "phase_state_id": 10,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 13
+      },
+      {
+        "carrier_index": 5,
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 12,
+        "phase_state_id": 10,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 18
+      },
+      {
+        "carrier_index": 5,
+        "epsilon": 1,
+        "event_anchor_label": 11,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 13,
+        "phase_state_id": 10,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 19
+      },
+      {
+        "carrier_index": 5,
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "local_mode_slot": 2,
+        "phase_line_partner_block": 13,
+        "phase_state_id": 11,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "positive",
+        "signed_block_index": 12
+      },
+      {
+        "carrier_index": 5,
+        "epsilon": -1,
+        "event_anchor_label": 8,
+        "local_mode_slot": 0,
+        "phase_line_partner_block": 12,
+        "phase_state_id": 11,
+        "reference_line_id": 1,
+        "reference_line_label": "L1",
+        "sign": "negative",
+        "signed_block_index": 13
+      },
+      {
+        "carrier_index": 5,
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "local_mode_slot": 1,
+        "phase_line_partner_block": 19,
+        "phase_state_id": 11,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "negative",
+        "signed_block_index": 18
+      },
+      {
+        "carrier_index": 5,
+        "epsilon": -1,
+        "event_anchor_label": 11,
+        "local_mode_slot": 3,
+        "phase_line_partner_block": 18,
+        "phase_state_id": 11,
+        "reference_line_id": 0,
+        "reference_line_label": "L0",
+        "sign": "positive",
+        "signed_block_index": 19
+      }
+    ]
+  },
+  "next_gate": "Construct the phase-decorated two-wing boundary domain from Audit 016 and classify every joint presentation by equality versus inequality of the Audit-018 reference projective lines. Then stress that zero/nonzero wedge classification under alternate admissible flat sections before admitting any source-preparation branch.",
+  "reference_state": {
+    "carrier_index": 0,
+    "epsilon": 1,
+    "phase_partition": [
+      [
+        0,
+        1
+      ],
+      [
+        14,
+        15
+      ]
+    ],
+    "reference_lines": [
+      {
+        "label": "L0",
+        "reference_line_id": 0,
+        "signed_block_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "L1",
+        "reference_line_id": 1,
+        "signed_block_indices": [
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "selected_phase_flip_connection": {
+    "a_induced_S1_local_permutation": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "equals_a_induced_S1": false,
+    "exchanges_projective_partitions": true,
+    "local_permutation": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "native_realization_count": 10,
+    "negative_modes": "swapped",
+    "order": 2,
+    "positive_modes": "fixed pointwise",
+    "source": "Program-01 / Project-41 201FU"
+  },
+  "six_face_descent": {
+    "section_is_reference_gauge_choice": true,
+    "selected_section_AutG60_indices": {
+      "0": 0,
+      "1": 1,
+      "2": 8,
+      "3": 10,
+      "4": 3,
+      "5": 4
+    },
+    "transporter_independent_unordered_phase_pair": true,
+    "transporters_per_face": 80,
+    "unordered_phase_pair_object_count_per_face": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    }
+  },
+  "verdict": "native_two_partition_face_geometry_plus_unique_signed_event_phase_flip_connection_serializes_all_forty_eight_phase_mode_projective_lines_in_one_flat_reference_gauge",
+  "version": 1
+}
