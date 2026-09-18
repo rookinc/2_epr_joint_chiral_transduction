@@ -1,0 +1,103 @@
+{
+  "artifact_id": "epr_analyzer_native_character_identification_026",
+  "artifact_sha256": "fb33d07d5ba4601d041cbab2f285eb1cd7c9f70451683afdc43a6afaa7972738",
+  "audit_pass": true,
+  "boundary": {
+    "Born_frequency_law_not_derived": true,
+    "analyzer_character_identified_on_common_native_domain": true,
+    "deck_and_face_characters_remain_independent": true,
+    "face_T_equals_analyzer_axis": false,
+    "local_face_instrument_not_yet_constructed": true,
+    "matched_character": "chi_deck",
+    "no_signaling_not_yet_tested": true,
+    "physical_spatial_parity_claim": false,
+    "physical_weak_chirality_claim": false
+  },
+  "characters": {
+    "chi_analyzer": {
+      "definition": "sign of six-face permutation, using Audit025 sector-flip equals permutation parity",
+      "profile": {
+        "-1": 240,
+        "1": 240
+      }
+    },
+    "chi_deck": {
+      "definition": "preserve versus exchange native deck b and ab",
+      "profile": {
+        "-1": 240,
+        "1": 240
+      }
+    },
+    "chi_deck_times_chi_face": {
+      "profile": {
+        "-1": 240,
+        "1": 240
+      }
+    },
+    "chi_face": {
+      "definition": "preserve versus reverse native signed-face sign",
+      "profile": {
+        "-1": 240,
+        "1": 240
+      }
+    }
+  },
+  "checks": {
+    "Audit024_passes": true,
+    "Audit025_passes": true,
+    "Audit025_sector_bit_is_permutation_parity": true,
+    "AutG60_cache_passes": true,
+    "AutG60_order_480": true,
+    "Bell_geometry_from_Audit022_retained": true,
+    "ER_face_profile_matches": true,
+    "ER_passes": true,
+    "EU_joint_deck_face_classes_are_120_each": true,
+    "EU_passes": true,
+    "FR_local_delta_is_restricted_chi_deck": true,
+    "FR_passes": true,
+    "analyzer_character_profile_240_240": true,
+    "deck_and_face_characters_independent": true,
+    "deck_character_profile_240_240": true,
+    "exactly_one_native_character_matches_analyzer": true,
+    "face_character_profile_240_240": true,
+    "four_signed_blocks_per_face": true,
+    "no_physical_parity_identification_added": true,
+    "no_weak_chirality_identification_added": true,
+    "product_character_profile_240_240": true,
+    "signed_block_count_24": true,
+    "signed_face_action_closes_for_all_480": true,
+    "signed_face_audit_passes": true,
+    "six_face_carriers": true
+  },
+  "earned_statement": "Across all 480 native Aut(G60) elements, the analyzer sector character is computed independently as the parity of the induced permutation on the six native faces, using Audit 025's exact identification of analyzer sector exchange with six-setting permutation parity. The deck character is read directly from the native deck action, while the face character is reconstructed directly from preservation or reversal of signed-face block sign. Exactly one of the three nontrivial native C2 characters agrees elementwise with the analyzer sector character on all 480 elements: chi_deck. analyzer sector exchange equals chi_deck globally; by FR its restriction to every face stabilizer equals the local relative-complex-orientation character delta_f.",
+  "elementwise_comparison": {
+    "exact_matches": [
+      "chi_deck"
+    ],
+    "joint_deck_face_analyzer_profile": {
+      "(-1, -1, -1)": 120,
+      "(-1, 1, -1)": 120,
+      "(1, -1, 1)": 120,
+      "(1, 1, 1)": 120
+    },
+    "match_counts": {
+      "chi_deck": 480,
+      "chi_deck_times_chi_face": 240,
+      "chi_face": 240
+    },
+    "matched_character": "chi_deck"
+  },
+  "local_relative_orientation": {
+    "FR_theorem": "For every native face f, delta_f equals chi_deck restricted to Stab(f).",
+    "consequence": "analyzer sector exchange equals chi_deck globally; by FR its restriction to every face stabilizer equals the local relative-complex-orientation character delta_f"
+  },
+  "native_domain": {
+    "effective_six_face_action_kernel_order": 4,
+    "effective_six_face_action_order": 120,
+    "group": "Aut(G60)",
+    "order": 480
+  },
+  "next_gate": "Use the identified native analyzer character to construct the six binary analyzer effects on the Program-01 complex2 face carrier with the correct sector/semilinear action. Preserve both analyzer sectors, every binary outcome, the Audit019 zero preparation branch, and all nonclean outputs. Then test normalized local receipt probabilities and no-signaling before any CHSH claim.",
+  "verdict": "analyzer_sector_exchange_character_is_exactly_chi_deck_on_all_480_native_AutG60_elements",
+  "version": 1
+}
