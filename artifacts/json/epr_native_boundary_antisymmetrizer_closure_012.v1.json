@@ -1,0 +1,68 @@
+{
+  "artifact_id": "epr_native_boundary_antisymmetrizer_closure_012",
+  "artifact_sha256": "2e447151833bf83b6ba6d18ad589cad66b50bd1e1a3e498909f602fa1e8dfcaa",
+  "audit_pass": true,
+  "boundary": {
+    "closure_image_is_canonical_line": true,
+    "closure_is_setting_independent": true,
+    "dimension_ratio_not_interpreted_as_probability": true,
+    "finite_boundary_closure_operator_constructed": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_no_signaling_claim": true,
+    "no_trial_frequency_law": true,
+    "null_branch_must_not_be_postselected_away": true,
+    "source_dynamics_do_not_yet_prove_closure_is_executed": true
+  },
+  "checks": {
+    "C_square_identity": true,
+    "antisymmetrizer_selects_canonical_ray_mod_relation": true,
+    "audit_004_passed": true,
+    "audit_006_passed": true,
+    "audit_010_passed": true,
+    "audit_011_native_RP3": true,
+    "audit_011_passed": true,
+    "balancing_relation_rank_8": true,
+    "canonical_raw_representative_is_C_fixed": true,
+    "canonical_raw_representative_not_killed_by_relation": true,
+    "canonical_ray_is_exchange_odd_mod_relation": true,
+    "descended_antisymmetrizer_kernel_dim_3": true,
+    "descended_antisymmetrizer_rank_1": true,
+    "factor_exchange_commutes_with_C": true,
+    "factor_exchange_preserves_balancing_relation_space": true,
+    "factor_exchange_preserves_fixed_relation_space": true,
+    "factor_exchange_preserves_native_fixed_space": true,
+    "factor_exchange_square_identity": true,
+    "fixed_relation_dim_4": true,
+    "induced_image_is_exactly_canonical_line": true,
+    "native_balanced_boundary_dim_4": true,
+    "native_simultaneous_S1_fixed_dim_8": true,
+    "null_branch_real_dimension_3": true,
+    "scaled_antisymmetrizer_identity": true
+  },
+  "closure": {
+    "factor_exchange": "X",
+    "idempotence": "A^2 = 2A",
+    "image": "canonical Audit-006 joint line",
+    "image_representative": "i(|01>-|10>)",
+    "induced_real_rank": 1,
+    "kernel_real_dimension": 3,
+    "operator": "P_boundary = (I-X)/2",
+    "scaled_operator": "A = I-X",
+    "setting_independent": true
+  },
+  "earned_statement": "The native G1800 balanced boundary space carries a canonical setting-independent factor-exchange action. Its antisymmetrizer P_boundary=(I-X)/2 descends through both the simultaneous-S1 boundary quotient and the Program-01 complex-balancing relation. On the resulting four-real-dimensional RP3 compatibility space it is an idempotent real-linear map of rank one. Its nonzero image is exactly the canonical EPR line identified in Audits 006-007. Its kernel has real dimension three, giving an explicit null branch that must remain visible in any later operational preparation protocol.",
+  "native_boundary_space": {
+    "projective_space": "RP^3",
+    "real_dimension": 4,
+    "source": "Audit 011 native balanced boundary"
+  },
+  "next_gate": "Determine whether the native source/common preparation actually executes or guarantees this boundary antisymmetrizer closure before analyzer settings are chosen. If not, retain the three-dimensional null/even branch explicitly. A preparation theorem must specify how trials enter the nonzero image without using setting-dependent or outcome-dependent postselection.",
+  "null_branch": {
+    "domain_real_dimension": 4,
+    "kernel_real_dimension": 3,
+    "warning": "Dimension ratio is not a probability. No measure or Born weighting is assumed."
+  },
+  "verdict": "native_balanced_boundary_admits_setting_independent_rank_one_factor_exchange_antisymmetrizer_closure_with_explicit_three_dimensional_null_branch",
+  "version": 1
+}
