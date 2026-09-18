@@ -1,0 +1,77 @@
+{
+  "artifact_id": "epr_g1800_joint_boundary_incidence_quotient_010",
+  "artifact_sha256": "f0f55cfa55d682baf234f9bad98902888909bdc54201864097c09473b1785fa6",
+  "audit_pass": true,
+  "boundary": {
+    "Audit003_RP3_not_yet_claimed_recovered": true,
+    "canonical_rank_one_projector_not_yet_executed": true,
+    "complex_balancing_not_yet_applied": true,
+    "full_two_wing_native_boundary_domain_constructed": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_probability_table": true,
+    "simultaneous_S1_structure_is_native_not_imposed": true
+  },
+  "checks": {
+    "G1800_state_count_1800": true,
+    "a_block_action_has_no_fixed_blocks": true,
+    "a_block_action_is_involution": true,
+    "a_closes_on_incidence_domain": true,
+    "a_preserves_block_carrier": true,
+    "a_preserves_block_sign": true,
+    "all_1800_joint_states_have_boundary_fibers": true,
+    "all_36_carrier_pairs_close_under_diagonal_a": true,
+    "all_local_tensor_basis_actions_are_eight_two_cycles": true,
+    "audit_009_induced_operator_S1": true,
+    "audit_009_passed": true,
+    "diagonal_incidence_action_is_free": true,
+    "every_G1800_state_has_all_four_sign_pairs": true,
+    "every_G1800_state_has_four_boundary_presentations": true,
+    "every_G1800_state_has_four_distinct_carrier_pairs": true,
+    "every_state_has_two_boundary_incidences": true,
+    "four_blocks_per_carrier": true,
+    "joint_boundary_class_count_7200": true,
+    "native_a_has_60_points": true,
+    "native_a_is_fixed_point_free": true,
+    "native_a_is_involution": true,
+    "native_simultaneous_S1_coinvariant_dimension_is_8": true,
+    "native_simultaneous_S1_fixed_dimension_is_8": true,
+    "one_wing_incidence_count_120": true,
+    "raw_joint_boundary_count_14400": true,
+    "signed_block_count_24": true
+  },
+  "diagonal_quotient": {
+    "G1800_state_count": 1800,
+    "boundary_presentations_per_G1800_state": 4,
+    "class_count": 7200,
+    "kernel": "a",
+    "relation": "(u,B;v,C) ~ (a u,a B;a v,a C)",
+    "sign_pair_set": [
+      "++",
+      "+-",
+      "-+",
+      "--"
+    ]
+  },
+  "earned_statement": "The native two-wing boundary domain is the diagonal-a quotient of the product of the two 120-element signed state-face incidence domains. It contains exactly 7200 boundary classes over 1800 G1800 states, with exactly four boundary presentations per common state. Those four presentations realize all four local sign pairs ++,+-,-+,-- and four distinct ordered face-carrier pairs. On every ordered pair of local four-real-dimensional face modules, the same diagonal-a quotient induces exactly the simultaneous Program-01 operator S1_A tensor S1_B. Its sixteen canonical basis tensors form eight two-cycles, yielding an eight-real-dimensional native coinvariant/fixed sector before complex balancing.",
+  "local_tensor_quotient": {
+    "basis_action": "(B,C) -> (aB,aC)",
+    "carrier_pair_count": 36,
+    "coinvariant_real_dimension": 8,
+    "fixed_real_dimension": 8,
+    "induced_operator": "S1_A tensor S1_B",
+    "orbit_profile": "eight 2-cycles",
+    "raw_real_dimension": 16
+  },
+  "next_gate": "Apply the Program-01 complex structures to the eight-real-dimensional simultaneous-S1 boundary quotient. Impose the same-chirality balancing law J_A tensor I = I tensor J_B and test whether the resulting native boundary space has real dimension four and is exactly the Audit-003 C_AB fixed real form, recovering RP3 from native incidence data.",
+  "one_wing": {
+    "domain": "I_F = {(u,B): u in signed face block B}",
+    "incidence_count": 120
+  },
+  "two_wing_raw_domain": {
+    "definition": "I_F x I_F",
+    "raw_count": 14400
+  },
+  "verdict": "native_G1800_joint_boundary_incidence_quotient_has_7200_classes_four_presentations_per_state_and_exact_S1_tensor_S1_eight_dimensional_local_quotient",
+  "version": 1
+}
