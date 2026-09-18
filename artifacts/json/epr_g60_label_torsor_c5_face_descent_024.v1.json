@@ -1,0 +1,1504 @@
+{
+  "C5_descent": {
+    "distinct_setting_face_maps_across_label_torsor": 120,
+    "face_cycle_profile_failure_count": 0,
+    "fixed_face_failure_count": 0,
+    "generator_lookup_failure_count": 0,
+    "setting_count": 6,
+    "setting_face_bijection_failure_count": 0,
+    "setting_face_map_multiplicity_profile": {
+      "4": 120
+    },
+    "setting_face_maps": [
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          1,
+          3,
+          5,
+          2,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          1,
+          4,
+          3,
+          5,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          1,
+          5,
+          2,
+          4,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          2,
+          1,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          2,
+          4,
+          5,
+          1,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          2,
+          5,
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          3,
+          1,
+          2,
+          5,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          3,
+          2,
+          5,
+          4,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          3,
+          4,
+          1,
+          2,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          3,
+          5,
+          4,
+          1,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          4,
+          1,
+          5,
+          3,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          4,
+          2,
+          1,
+          5,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          4,
+          3,
+          2,
+          1,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          4,
+          5,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          5,
+          1,
+          4,
+          2,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          5,
+          2,
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          5,
+          3,
+          1,
+          4,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          0,
+          5,
+          4,
+          2,
+          3,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          0,
+          2,
+          5,
+          3,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          0,
+          3,
+          4,
+          2,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          0,
+          4,
+          2,
+          5,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          0,
+          5,
+          3,
+          4,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          2,
+          0,
+          3,
+          5,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          2,
+          4,
+          0,
+          3,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          2,
+          5,
+          4,
+          0,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          3,
+          0,
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          3,
+          2,
+          4,
+          5,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          3,
+          4,
+          5,
+          0,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          3,
+          5,
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          4,
+          0,
+          5,
+          2,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          4,
+          2,
+          3,
+          0,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          4,
+          3,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          4,
+          5,
+          2,
+          3,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          5,
+          0,
+          4,
+          3,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          5,
+          2,
+          0,
+          4,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          5,
+          3,
+          2,
+          0,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          1,
+          5,
+          4,
+          3,
+          2,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          0,
+          1,
+          5,
+          4,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          0,
+          3,
+          1,
+          5,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          0,
+          4,
+          3,
+          1,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          0,
+          5,
+          4,
+          3,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          1,
+          0,
+          4,
+          5,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          1,
+          3,
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          1,
+          4,
+          5,
+          3,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          1,
+          5,
+          3,
+          0,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          3,
+          0,
+          5,
+          1,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          3,
+          1,
+          4,
+          0,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          3,
+          4,
+          0,
+          5,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          3,
+          5,
+          1,
+          4,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          4,
+          0,
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          4,
+          1,
+          3,
+          5,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          4,
+          3,
+          5,
+          0,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          4,
+          5,
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          5,
+          0,
+          3,
+          4,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          5,
+          1,
+          0,
+          3,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          5,
+          3,
+          4,
+          1,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          2,
+          5,
+          4,
+          1,
+          0,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          0,
+          1,
+          4,
+          5,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          0,
+          2,
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          0,
+          4,
+          5,
+          2,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          0,
+          5,
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          1,
+          0,
+          5,
+          4,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          1,
+          2,
+          0,
+          5,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          1,
+          4,
+          2,
+          0,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          1,
+          5,
+          4,
+          2,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          2,
+          0,
+          4,
+          1,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          2,
+          1,
+          5,
+          0,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          2,
+          4,
+          1,
+          5,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          2,
+          5,
+          0,
+          4,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          4,
+          0,
+          2,
+          5,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          4,
+          1,
+          0,
+          2,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          4,
+          2,
+          5,
+          1,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          4,
+          5,
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          5,
+          0,
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          5,
+          1,
+          2,
+          4,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          5,
+          2,
+          4,
+          0,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          3,
+          5,
+          4,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          0,
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          0,
+          2,
+          3,
+          5,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          0,
+          3,
+          5,
+          1,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          0,
+          5,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          1,
+          0,
+          3,
+          2,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          1,
+          2,
+          5,
+          0,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          1,
+          3,
+          2,
+          5,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          1,
+          5,
+          0,
+          3,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          2,
+          0,
+          5,
+          3,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          2,
+          1,
+          0,
+          5,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          2,
+          3,
+          1,
+          0,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          2,
+          5,
+          3,
+          1,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          3,
+          0,
+          1,
+          5,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          3,
+          1,
+          5,
+          2,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          3,
+          2,
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          3,
+          5,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          5,
+          0,
+          2,
+          1,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          5,
+          1,
+          3,
+          0,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          5,
+          2,
+          1,
+          3,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          4,
+          5,
+          3,
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          0,
+          1,
+          3,
+          2,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          0,
+          2,
+          4,
+          1,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          0,
+          3,
+          2,
+          4,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          0,
+          4,
+          1,
+          3,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          1,
+          0,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          1,
+          2,
+          3,
+          4,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          1,
+          3,
+          4,
+          0,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          1,
+          4,
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          2,
+          0,
+          1,
+          4,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          2,
+          1,
+          4,
+          3,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          2,
+          3,
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          2,
+          4,
+          3,
+          0,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          3,
+          0,
+          4,
+          2,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          3,
+          1,
+          0,
+          4,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          3,
+          2,
+          1,
+          0,
+          4
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          3,
+          4,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          4,
+          0,
+          3,
+          1,
+          2
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          4,
+          1,
+          2,
+          0,
+          3
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          4,
+          2,
+          0,
+          3,
+          1
+        ]
+      },
+      {
+        "isomorphism_count": 4,
+        "map": [
+          5,
+          4,
+          3,
+          1,
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  "artifact_id": "epr_g60_label_torsor_c5_face_descent_024",
+  "artifact_sha256": "fcad72e7d56d8cc3448f4362470f4fdb44dfe7f1a575e53a115087aae842c8f9",
+  "audit_pass": true,
+  "boundary": {
+    "Audit022_common_adjoint_lift_still_not_native": true,
+    "Bell_geometry_retained": true,
+    "Born_frequency_law_not_derived": true,
+    "H58_continuous_SU2_equivalence_not_contradicted": true,
+    "all_480_label_bridges_tested": true,
+    "arbitrary_single_graph_isomorphism_not_promoted": true,
+    "literal_setting_face_numbers_are_gauge": true,
+    "local_instrument_integration_paused": true,
+    "same_C5_adjoint_identification_refuted": true,
+    "setting_face_bijection_is_relabeling_invariant": true
+  },
+  "checks": {
+    "Audit017_passes": true,
+    "Audit022_Bell_quartets_exist": true,
+    "Audit022_passes": true,
+    "AutG60_cache_passes": true,
+    "all_analyzer_C5s_preserve_analyzer_graph": true,
+    "all_analyzer_generators_order5": true,
+    "all_conjugated_C5_generators_land_in_current_AutG60": true,
+    "all_conjugated_C5s_fix_exactly_one_face": true,
+    "all_conjugated_C5s_have_face_cycle_type_1_plus_5": true,
+    "all_current_cache_perms_preserve_current_graph": true,
+    "analyzer_G60_edge_count_120": true,
+    "analyzer_sector_fixed_dimension_1": true,
+    "analyzer_settings_0_through_5": true,
+    "canonical_face_has_four_signed_blocks": true,
+    "coordinate_choice_not_used_to_select_setting_face_map": true,
+    "current_AutG60_order_480": true,
+    "current_G60_edge_count_120": true,
+    "current_face_stabilizer_order_80": true,
+    "every_isomorphism_gives_setting_face_bijection": true,
+    "every_setting_face_map_is_permutation_of_six_faces": true,
+    "face_adjoint_fixed_dimension_3": true,
+    "face_cosets_size80": true,
+    "fixed_face_C5_local_D8_image_must_be_identity": true,
+    "graphs_are_isomorphic": true,
+    "isomorphism_torsor_size_480": true,
+    "local_face_image_is_D8_order8": true,
+    "matches_Audit017_face_stabilizer": true,
+    "same_C5_equivariant_3D_identification_refuted": true,
+    "setting_face_map_family_nonempty": true,
+    "signed_face_audit_passes": true,
+    "six_analyzer_C5_generators": true,
+    "six_face_cosets": true
+  },
+  "earned_statement": "The analyzer reconstruction and the current Project-41 G60 are not literally label-identical but are exactly isomorphic. Exhaustive graph isomorphism enumeration produces 480 analyzer-to-current relabelings, matching the current Aut(G60) order and therefore forming the expected coordinate torsor. Under every one of those relabelings, all six analyzer order-five generators conjugate into the current Aut(G60) cache. Each has cycle type 1+5 on the six face cosets, fixes exactly one face, and the six settings fix six distinct faces. The literal setting-to-face numbering varies only with the relabeling gauge. On its fixed face the C5 action maps trivially into the local D8 four-mode action, so it fixes the whole three-dimensional face adjoint. The analyzer three-space instead has a one-dimensional C5-fixed axis. Thus the setting-to-face relation is native, while a same-C5 equivariant identification of the analyzer 3-space with the fixed-face adjoint is refuted.",
+  "graph_label_bridge": {
+    "analyzer_edge_count": 120,
+    "current_edge_count": 120,
+    "expected_torsor_size_from_AutG60": 480,
+    "first_isomorphism_example": [
+      0,
+      25,
+      19,
+      15,
+      1,
+      26,
+      59,
+      4,
+      16,
+      55,
+      12,
+      58,
+      17,
+      13,
+      11,
+      23,
+      24,
+      18,
+      10,
+      6,
+      5,
+      20,
+      14,
+      50,
+      51,
+      9,
+      57,
+      52,
+      56,
+      48,
+      49,
+      53,
+      3,
+      45,
+      2,
+      39,
+      35,
+      46,
+      29,
+      36,
+      32,
+      28,
+      37,
+      33,
+      43,
+      31,
+      38,
+      44,
+      42,
+      47,
+      41,
+      54,
+      40,
+      8,
+      30,
+      7,
+      34,
+      21,
+      27,
+      22
+    ],
+    "first_isomorphism_is_example_not_canonical": true,
+    "graph_isomorphic": true,
+    "isomorphism_count": 480,
+    "literal_edge_match": false
+  },
+  "next_gate": "Use the relabeling-invariant setting-to-face relation without choosing a preferred numbering. Construct the six projective neutral face axes [T_f] in one common Program-01 adjoint reference gauge and compute their unlabeled six-line Gram matrix. Compare that Gram matrix with the analyzer six-line Gram matrix. A match would establish a setting-to-face-axis transduction without identifying the same C5 representations.",
+  "representation_result": {
+    "analyzer_sector_fixed_dimension": 1,
+    "face_adjoint_fixed_dimension": 3,
+    "fixed_face_local_C5_action": "identity",
+    "reason": "fixed-face C5 maps into local D8; image order divides both 5 and 8",
+    "same_C5_equivariant_3D_identification": false
+  },
+  "setting_generator_orbits": {
+    "0": {
+      "distinct_current_AutG60_indices": 24,
+      "multiplicity_profile": {
+        "20": 24
+      }
+    },
+    "1": {
+      "distinct_current_AutG60_indices": 24,
+      "multiplicity_profile": {
+        "20": 24
+      }
+    },
+    "2": {
+      "distinct_current_AutG60_indices": 24,
+      "multiplicity_profile": {
+        "20": 24
+      }
+    },
+    "3": {
+      "distinct_current_AutG60_indices": 24,
+      "multiplicity_profile": {
+        "20": 24
+      }
+    },
+    "4": {
+      "distinct_current_AutG60_indices": 24,
+      "multiplicity_profile": {
+        "20": 24
+      }
+    },
+    "5": {
+      "distinct_current_AutG60_indices": 24,
+      "multiplicity_profile": {
+        "20": 24
+      }
+    }
+  },
+  "verdict": "analyzer_and_Project41_G60_are_isomorphic_with_a_480_element_relabeling_torsor_and_every_relabeling_conjugates_the_six_native_C5_settings_into_current_AutG60_where_they_bijectively_fix_the_six_faces_while_same_C5_adjoint_identification_is_refuted",
+  "version": 1
+}
