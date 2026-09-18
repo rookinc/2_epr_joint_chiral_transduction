@@ -1,0 +1,168 @@
+{
+  "CHSH": {
+    "exact": "1 + 3/5*sqrt(5)",
+    "exceeds_2": true,
+    "numeric": 2.341640786499874
+  },
+  "artifact_id": "epr_unique_binary_weight_closure_041",
+  "artifact_sha256": "5c3b260898df5aa6222d4b5a0ce8a480ae6c44e4130d4c4aae51b461b9e7bf2e",
+  "audit_pass": true,
+  "binary_moment_system": {
+    "constraints": [
+      "normalization=1",
+      "Alice_signed_mean=0",
+      "Bob_signed_mean=0",
+      "joint_product_mean=Gamma"
+    ],
+    "matrix": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "rank": 4,
+    "unique_solution": "w_ab=(1+a*b*Gamma)/4",
+    "unknowns": [
+      "w++",
+      "w+-",
+      "w-+",
+      "w--"
+    ]
+  },
+  "boundary": {
+    "Audit035_target_used_as_derivation_input": false,
+    "Born_frequency_postulate_used": false,
+    "binary_algebraic_weight_table_unique": true,
+    "common_adjoint_face_binding_still_conditional": true,
+    "native_joint_operator_kernel_closed": true,
+    "physical_sampling_rule_derived": false,
+    "registered_trial_frequency_equals_algebraic_weight_derived": false,
+    "remaining_gate": "derive that registered repeated trials realize the unique algebraic source weights",
+    "weights_positive_and_normalized": true
+  },
+  "checks": {
+    "Audit035_passes": true,
+    "Audit036_passes": true,
+    "Audit040B_passes": true,
+    "all_derived_algebraic_weights_nonnegative": true,
+    "all_native_operator_correlations_have_unique_binary_weight_table": true,
+    "binary_moment_system_rank_four": true,
+    "frozen_native_sign_pattern": true,
+    "independent_algebraic_CHSH_matches_Audit035_control": true,
+    "native_frequency_interpretation_open_at_entry": true,
+    "native_operator_bilinearity_closed": true,
+    "source_contraction_CHSH_exact": true,
+    "source_contraction_CHSH_exceeds_2": true
+  },
+  "earned_statement": "The canonical native joint source supplies the exact operator contraction Gamma through Audit040B, while Audit036 forces zero signed one-wing means. For binary outcomes, normalization, the two zero local means, and the joint product mean Gamma form a full-rank four-by-four moment system. The algebraic joint weights are therefore unique: w_ab=(1+a b Gamma)/4. For the frozen native quartet these weights are positive, normalized, have exact one-half marginals, and give CHSH 1+3/sqrt(5). The Audit035 table is recovered independently rather than used as input. What remains open is the operational statement that registered trial frequencies realize these canonical algebraic weights.",
+  "frozen_quartet_tables": {
+    "A0B0": {
+      "Alice_mean_zero": true,
+      "Bob_mean_zero": true,
+      "correlation_exact": "-1",
+      "correlation_numeric": -1.0,
+      "correlation_recovered": true,
+      "normalization": true,
+      "weights_exact": {
+        "++": "0",
+        "+-": "1/2",
+        "-+": "1/2",
+        "--": "0"
+      },
+      "weights_numeric": {
+        "++": 0.0,
+        "+-": 0.5,
+        "-+": 0.5,
+        "--": 0.0
+      }
+    },
+    "A0B1": {
+      "Alice_mean_zero": true,
+      "Bob_mean_zero": true,
+      "correlation_exact": "-1/5*sqrt(5)",
+      "correlation_numeric": -0.447213595499958,
+      "correlation_recovered": true,
+      "normalization": true,
+      "weights_exact": {
+        "++": "1/4 - 1/20*sqrt(5)",
+        "+-": "1/4 + 1/20*sqrt(5)",
+        "-+": "1/4 + 1/20*sqrt(5)",
+        "--": "1/4 - 1/20*sqrt(5)"
+      },
+      "weights_numeric": {
+        "++": 0.1381966011250105,
+        "+-": 0.36180339887498947,
+        "-+": 0.36180339887498947,
+        "--": 0.1381966011250105
+      }
+    },
+    "A1B0": {
+      "Alice_mean_zero": true,
+      "Bob_mean_zero": true,
+      "correlation_exact": "-1/5*sqrt(5)",
+      "correlation_numeric": -0.447213595499958,
+      "correlation_recovered": true,
+      "normalization": true,
+      "weights_exact": {
+        "++": "1/4 - 1/20*sqrt(5)",
+        "+-": "1/4 + 1/20*sqrt(5)",
+        "-+": "1/4 + 1/20*sqrt(5)",
+        "--": "1/4 - 1/20*sqrt(5)"
+      },
+      "weights_numeric": {
+        "++": 0.1381966011250105,
+        "+-": 0.36180339887498947,
+        "-+": 0.36180339887498947,
+        "--": 0.1381966011250105
+      }
+    },
+    "A1B1": {
+      "Alice_mean_zero": true,
+      "Bob_mean_zero": true,
+      "correlation_exact": "1/5*sqrt(5)",
+      "correlation_numeric": 0.447213595499958,
+      "correlation_recovered": true,
+      "normalization": true,
+      "weights_exact": {
+        "++": "1/4 + 1/20*sqrt(5)",
+        "+-": "1/4 - 1/20*sqrt(5)",
+        "-+": "1/4 - 1/20*sqrt(5)",
+        "--": "1/4 + 1/20*sqrt(5)"
+      },
+      "weights_numeric": {
+        "++": 0.36180339887498947,
+        "+-": 0.1381966011250105,
+        "-+": 0.1381966011250105,
+        "--": 0.36180339887498947
+      }
+    }
+  },
+  "next_gate": "Search only for a native repeated-trial or receipt-additivity law that identifies registered frequencies with the unique algebraic source weights. Do not revisit source selection, local hidden answer tables, pulse optimization, or visibility fitting.",
+  "source_operator": {
+    "joint_contraction": "Gamma(A,B)=Tr[Podd(A tensor B)]",
+    "local_means": 0,
+    "native_visibility": "1/sqrt(5)"
+  },
+  "verdict": "the_native_joint_operator_contraction_together_with_native_zero_one_wing_means_uniquely_determines_a_positive_normalized_four_outcome_algebraic_weight_table_for_each_binary_setting_pair",
+  "version": 1
+}
