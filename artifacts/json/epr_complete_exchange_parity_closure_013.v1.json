@@ -1,0 +1,60 @@
+{
+  "artifact_id": "epr_complete_exchange_parity_closure_013",
+  "artifact_sha256": "266562926b2337e1d2f594e2aa7caae6d1b2d68ed9525643af20e792d7c2a724",
+  "audit_pass": true,
+  "boundary": {
+    "branch_rank_not_interpreted_as_probability": true,
+    "complete_two_branch_closure_constructed": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_trial_frequency_law": true,
+    "odd_branch_not_permitted_to_be_postselected_after_settings": true,
+    "otherwise_even_branch_must_be_retained": true,
+    "source_may_prepare_odd_before_settings_if_natively_derived": true
+  },
+  "branch_interpretation": {
+    "even": "three-real-dimensional complementary exchange-even boundary branch",
+    "odd": "canonical rank-one EPR line [|01>-|10>]"
+  },
+  "checks": {
+    "P_even_P_odd_zero": true,
+    "P_even_idempotent": true,
+    "P_even_plus_P_odd_identity": true,
+    "P_odd_P_even_zero": true,
+    "P_odd_idempotent": true,
+    "X_square_identity": true,
+    "audit_011_passed": true,
+    "audit_012_kernel_dim_3": true,
+    "audit_012_odd_rank_1": true,
+    "audit_012_passed": true,
+    "branch_ranks_sum_to_domain_dimension": true,
+    "even_branch_real_rank_3": true,
+    "even_example_killed_by_P_odd": true,
+    "even_example_survives_P_even": true,
+    "native_boundary_real_dimension_4": true,
+    "odd_branch_real_rank_1": true,
+    "odd_generator_killed_by_P_even": true,
+    "odd_generator_survives_P_odd": true
+  },
+  "complete_closure": {
+    "cross_products": "P_even P_odd = P_odd P_even = 0",
+    "even": "P_even = (I+X)/2",
+    "even_real_rank": 3,
+    "odd": "P_odd = (I-X)/2",
+    "odd_real_rank": 1,
+    "sum": "P_even + P_odd = I"
+  },
+  "earned_statement": "The three-dimensional kernel of the Audit-012 antisymmetrizer is not an undefined discarded null space. It is exactly the image of the complementary exchange-even projector P_even=(I+X)/2. Together P_even and P_odd form a complete setting-independent two-branch closure of the native RP3 boundary space. The odd branch is the canonical rank-one EPR line and the even branch has real rank three.",
+  "factor_exchange": {
+    "action": "(a,b,c,d) -> (a,b,c,-d)",
+    "square": "I"
+  },
+  "native_boundary": {
+    "coordinates": "(a,b,c,d)",
+    "projective_space": "RP^3",
+    "real_dimension": 4
+  },
+  "next_gate": "Determine whether native source preparation before analyzer selection is constrained to the odd branch. If not, carry the exchange-even branch forward as a real preparation outcome. Do not condition the EPR sample on observing the odd branch after settings are chosen.",
+  "verdict": "native_RP3_boundary_has_complete_setting_independent_exchange_parity_closure_with_rank1_odd_and_rank3_even_branches",
+  "version": 1
+}
