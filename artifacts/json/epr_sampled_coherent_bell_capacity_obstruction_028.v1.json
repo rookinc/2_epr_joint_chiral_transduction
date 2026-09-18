@@ -1,0 +1,84 @@
+{
+  "artifact_id": "epr_sampled_coherent_bell_capacity_obstruction_028",
+  "artifact_sha256": "7154d563e7dd201d6f3293bb1035cee46e4890b26beb27b4a626b4873d65b097",
+  "audit_pass": true,
+  "boundary": {
+    "Born_frequency_law_derived": false,
+    "canonical_EPR_preparation_rejected": false,
+    "continuous_unsampled_controls_ruled_out": false,
+    "face_receipt_POVM_rejected": false,
+    "native_six_axis_geometry_Bell_capable": true,
+    "no_signaling_test_required_for_this_operator_obstruction": false,
+    "obstruction_probability_law_independent": true,
+    "obstruction_state_independent": true,
+    "other_dynamics_ruled_out": false,
+    "sampled_coherent_response_Bell_capable": false,
+    "sampled_scalar_response_strength_is_obstruction": true,
+    "time_dependent_or_weighted_controls_ruled_out": false
+  },
+  "checks": {
+    "Audit022_passed": true,
+    "Audit027_face_POVM_constructed": true,
+    "Audit027_passed": true,
+    "Audit027_state_update_not_inserted": true,
+    "all_256_local_calibration_pairs_tested": true,
+    "all_local_binary_observables_are_contractions": true,
+    "all_nonzero_pulse_pairs_strictly_below_2": true,
+    "bias_contrast_reconstruct_observable_eigenvalues": true,
+    "canonical_EPR_state_not_needed_for_obstruction": true,
+    "global_maximum_bound_at_most_2": true,
+    "ideal_Bell_geometry_not_rejected": true,
+    "no_Born_frequency_rule_used": true,
+    "no_joint_probability_law_used": true,
+    "no_sampled_pair_has_upper_bound_above_2": true,
+    "no_state_update_rule_used": true,
+    "sampled_max_contrast_below_ideal_unbiased_threshold": true,
+    "sixteen_calibrations": true
+  },
+  "earned_statement": "The sampled coherent face POVMs from Audit 027 are locally normalized and positive, but their binary pointer observables are too weakly setting-dependent to support CHSH violation. Writing each local observable as bias times identity plus contrast times a Hermitian involution yields a state-independent CHSH operator upper bound. All 256 ordered Alice/Bob combinations of the sixteen sampled calibrations satisfy that bound at or below two, and every pair with nonzero pulse lies strictly below two. This obstruction does not use a joint probability law, Born-frequency interpretation, state-update rule, or the canonical EPR preparation. It therefore isolates the inherited sampled coherent response law itself as Bell-incapable while leaving the native six-axis Bell geometry from Audit 022 intact.",
+  "ideal_geometry_reference": {
+    "Audit022_ideal_singlet_max": 2.341640786499874,
+    "comparison_is_reference_not_main_proof": true,
+    "equal_unbiased_visibility_threshold_for_that_value": 0.9241763718304448,
+    "sampled_max_absolute_contrast": 0.07296147126218
+  },
+  "local_binary_observable": {
+    "N_i_squared": "I",
+    "calibration_count": 16,
+    "formula": "A_i = bias I + contrast N_i",
+    "max_absolute_contrast": 0.07296147126218,
+    "max_local_operator_norm": 1.0,
+    "max_reconstruction_error": 1.1102230246251565e-16
+  },
+  "next_gate": "Do not build joint probabilities from a sampled local response that is already Bell-incapable. Search the native local transduction/control space for a normalized response with substantially stronger analyzer contrast while retaining all clean/nonclean receipts and chi_deck covariance. Candidate directions include nonconstant controls, different native generators, or a genuinely derived weighting law. Any new response must first pass local normalization and then this state-independent Bell-capacity gate before joint EPR weighting.",
+  "state_independent_bound": {
+    "Alice_Bob_calibration_pair_count": 256,
+    "derivation": "identity term plus one surviving local centered term on each wing plus the universal Tsirelson bound on the centered CHSH operator",
+    "formula": "2|b_A b_B| + 2|b_A c_B| + 2|c_A b_B| + 2 sqrt(2)|c_A c_B|",
+    "maximum_nonzero_pulse_pair": {
+      "Alice": "laplacian_control@0.1",
+      "Alice_bias": 0.98049150206636,
+      "Alice_contrast": 1.4876389319962158e-05,
+      "Bob": "laplacian_control@0.1",
+      "Bob_bias": 0.98049150206636,
+      "Bob_contrast": 1.4876389319962158e-05,
+      "exceeds_2": false,
+      "state_independent_CHSH_upper_bound": 1.9227855165678829
+    },
+    "maximum_nonzero_pulse_upper_bound": 1.9227855165678829,
+    "maximum_upper_bound": 2.0,
+    "maximum_upper_bound_pair": {
+      "Alice": "adjacency@0.0",
+      "Alice_bias": 1.0,
+      "Alice_contrast": 0.0,
+      "Bob": "adjacency@0.0",
+      "Bob_bias": 1.0,
+      "Bob_contrast": 0.0,
+      "exceeds_2": false,
+      "state_independent_CHSH_upper_bound": 2.0
+    },
+    "violating_upper_bound_count": 0
+  },
+  "verdict": "the_sampled_coherent_face_POVM_family_is_state_independently_CHSH_incapable_for_all_256_Alice_Bob_calibration_pairs_under_a_universal_operator_norm_bound_even_though_the_native_six_axis_geometry_itself_remains_Bell_capable",
+  "version": 1
+}
