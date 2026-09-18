@@ -1,0 +1,80 @@
+{
+  "artifact_id": "epr_g1800_relative_lift_torsor_001",
+  "artifact_sha256": "55c4efb9188dd2d8b2e6d5a5917b0ad6f95ca0b4241d630285a0f9d7be2bf96f",
+  "audit_pass": true,
+  "boundary": {
+    "no_CHSH_claim": true,
+    "no_physical_EPR_claim": true,
+    "no_probability_law_claim": true,
+    "relative_torsor_is_not_a_Bell_resource": true,
+    "relative_torsor_is_not_an_outcome": true,
+    "tau_AB_is_not_identified_with_S1": true,
+    "tau_AB_is_not_identified_with_r1": true
+  },
+  "checks": {
+    "B_is_fixed_point_free": true,
+    "B_is_involution": true,
+    "B_orbit_count_is_30": true,
+    "B_orbits_all_size_2": true,
+    "diagonal_quotient_count_is_1800": true,
+    "each_q_fiber_is_one_tau_orbit": true,
+    "every_local_pair_has_two_joint_lifts": true,
+    "local_address_pair_count_is_900": true,
+    "local_address_pair_does_not_determine_joint_state": true,
+    "tau_is_fixed_point_free": true,
+    "tau_is_involution": true,
+    "tau_left_equals_tau_right": true,
+    "tau_preserves_both_local_addresses": true,
+    "tau_well_defined": true
+  },
+  "classification": {
+    "joint_only": [
+      "two-state relative lift torsor over each ordered local-address pair",
+      "residual swap tau_AB"
+    ],
+    "locally_instantiated": [
+      "Alice G30 address",
+      "Bob G30 address"
+    ],
+    "not_yet_established": [
+      "identification with Program-01 S1 sheet",
+      "identification with r1",
+      "Hilbert coherence",
+      "joint coherent preparation line",
+      "local measurement instrument",
+      "trial weighting law",
+      "Bell nonfactorizability",
+      "Bell violation"
+    ]
+  },
+  "construction": {
+    "common_carrier": "G1800 = (G60 x G60)/diag(B)",
+    "local_address_map": "q([u,v]) = ([u],[v])",
+    "local_cover": "G60 -> G30 = G60/<B>",
+    "residual_joint_involution": "tau_AB([u,v]) = [Bu,v] = [u,Bv]"
+  },
+  "counts": {
+    "G1800_class_count": 1800,
+    "G30_orbit_count": 30,
+    "G60_point_count": 60,
+    "fiber_size_profile": {
+      "2": 900
+    },
+    "local_address_pair_count": 900,
+    "product_point_count": 3600
+  },
+  "failures": {
+    "fiber_equals_tau_orbit_failures": 0,
+    "tau_same_from_other_factor_failures": 0,
+    "tau_well_defined_failures": 0
+  },
+  "next_gate": "Determine whether the native local action induced by the selected deck involution B admits a Program-01 face-sheet transduction on each wing. Recover only that specific map if it is missing.",
+  "proof_scope": {
+    "deck_action": "arbitrary free involution B on 60 points",
+    "finite_set_size": 60,
+    "generality": "Every free involution on 60 points is permutation-conjugate to the verified 30-transposition model.",
+    "native_binding": "Uses the previously earned native premise that the selected G60 deck action B is free. This audit does not replay that provenance."
+  },
+  "verdict": "g1800_diagonal_deck_quotient_has_exact_two_state_relative_lift_torsor",
+  "version": 1
+}
