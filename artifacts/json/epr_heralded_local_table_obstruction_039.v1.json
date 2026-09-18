@@ -1,0 +1,48 @@
+{
+  "artifact_id": "epr_heralded_local_table_obstruction_039",
+  "artifact_sha256": "26631e5ff5af631e947511b49b34f7ae31e5eabf475e26629a74fed311e22228",
+  "audit_pass": true,
+  "boundary": {
+    "Born_rule_assumed": false,
+    "remote_setting_dependence_allowed": false,
+    "rules_out_algebraic_amplitude_weights": false,
+    "rules_out_arbitrary_positive_setting_independent_local_hidden_variable_weights": true,
+    "rules_out_joint_contextual_receipt": false,
+    "rules_out_native_positive_rank3_kernel": false,
+    "rules_out_preexisting_local_answer_tables": true,
+    "rules_out_uniform_local_counting": true
+  },
+  "checks": {
+    "Audit035_passes": true,
+    "Audit038_passes": true,
+    "convex_local_models_bound_2": true,
+    "deterministic_local_max_CHSH_2": true,
+    "deterministic_table_count_16": true,
+    "every_deterministic_local_table_has_abs_CHSH_2": true,
+    "herald_is_pre_setting": true,
+    "target_CHSH_exceeds_2": true,
+    "target_outside_local_polytope": true
+  },
+  "earned_statement": "After the setting-independent h=1 preparation herald, any model assigning preexisting binary answers A0,A1,B0,B1 to each source state has pointwise CHSH magnitude two. Any setting-independent positive mixture of such tables therefore has CHSH at most two by convexity. The exact Audit-035 target has CHSH 1+3/sqrt(5)>2 and cannot arise from such a local answer-table census. Thus the remaining native receipt law must not reduce to preassigned local responses with positive setting-independent source weights.",
+  "heralded_source": {
+    "receipt": "h=1 from Audit034C",
+    "settings_used_to_define_herald": false
+  },
+  "local_answer_table_test": {
+    "CHSH_profile": {
+      "-2": 8,
+      "2": 8
+    },
+    "deterministic_table_count": 16,
+    "maximum_absolute_CHSH": 2,
+    "stochastic_extension": "all setting-independent positive mixtures are convex combinations of these deterministic vertices"
+  },
+  "next_gate": "Construct a genuinely joint relational receipt on the h=1 preparation domain whose local marginals remain setting-local but whose joint kernel is not a convex mixture of preexisting local answer tables. The Audit038 positive rank-three kernel is the exact target structure.",
+  "target": {
+    "CHSH": "1 + 3/5*sqrt(5)",
+    "CHSH_numeric": 2.341640786499874,
+    "distinct_setting_probability_form": "1/4 +/- sqrt(5)/20"
+  },
+  "verdict": "the_pre_setting_h1_herald_cannot_reproduce_the_target_EPR_table_by_any_setting_independent_positive_mixture_of_preexisting_local_binary_answer_tables",
+  "version": 1
+}
