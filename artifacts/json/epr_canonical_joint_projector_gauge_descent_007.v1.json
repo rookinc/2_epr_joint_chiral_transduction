@@ -1,0 +1,39 @@
+{
+  "artifact_id": "epr_canonical_joint_projector_gauge_descent_007",
+  "artifact_sha256": "575292f1b56a23d582f227a8df697b5fffd09af4285c732c80581ba34a36ef1d",
+  "audit_pass": true,
+  "boundary": {
+    "face_Weyl_axis_crosswalk_not_needed": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_probability_law": true,
+    "projector_is_interface_canonical": true,
+    "projector_not_yet_declared_physical_operation": true,
+    "source_preparation_execution_not_yet_derived": true
+  },
+  "checks": {
+    "all_eight_axis_sign_choices_preserve_projector": true,
+    "all_six_axis_permutations_preserve_projector": true,
+    "audit_006_exact_projector_identity": true,
+    "audit_006_passed": true,
+    "factor_exchange_is_exact_tensor_swap": true,
+    "general_common_U2_invariance_theorem_applies": true,
+    "reconstructed_projectors_equal": true,
+    "representative_common_U2_changes_preserve_projector": true
+  },
+  "earned_statement": "The canonical rank-one joint projector from Audit 006 does not depend on the unresolved Program-01 S3 axis-slot crosswalk, on quaternionic axis sign conventions, or on a common local U(2) frame choice. Its exchange form P=(I-X)/2 makes common-U2 invariance exact, while its quaternionic form makes axis-frame independence explicit. Therefore the canonical joint line descends through the remaining local presentation freedoms of Program 01.",
+  "gauge_descent": {
+    "S3_axis_permutation_failure_count": 0,
+    "axis_sign_failure_count": 0,
+    "common_U2_general_reason": "X commutes with U tensor U for every common local frame change U, so any polynomial in X including P_joint=(I-X)/2 is common-U2 invariant.",
+    "representative_common_U2_failure_count": 0
+  },
+  "next_gate": "Construct a setting-independent native preparation operation or source-sector rule whose image is the gauge-descended canonical line. The remaining problem is execution, not state selection.",
+  "projector": {
+    "complex_rank": 1,
+    "exchange_form": "P_joint = (I-X)/2",
+    "quaternionic_form": "P_joint = (I + sum_i Ki tensor Ki)/4"
+  },
+  "verdict": "canonical_joint_projector_descends_through_S3_axis_ambiguity_sign_conventions_and_common_U2_frame_gauge",
+  "version": 1
+}
