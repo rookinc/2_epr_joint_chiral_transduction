@@ -1,0 +1,89 @@
+{
+  "artifact_id": "epr_phase_decorated_incidence_domain_015",
+  "artifact_sha256": "76f6d99801ed6f17d7e08107feceb24eebaa881e7104a36c28923d0b40b8c4d5",
+  "audit_pass": true,
+  "bare_incidence_domain": {
+    "contains_independent_local_phase_bit": false,
+    "count": 120,
+    "definition": "I_F = {(u,B): u belongs to signed block B}",
+    "registrations_supported_per_incidence": 2
+  },
+  "boundary": {
+    "Audit014_eta_domain_corrected": true,
+    "bare_incidence_not_used_to_invent_phase": true,
+    "explicit_S12_phase_state_rows_not_yet_serialized": true,
+    "mode_object_crosswalk_closed": true,
+    "no_Born_rule": true,
+    "no_CHSH_claim": true,
+    "no_probability_law": true,
+    "projective_line_table_ell_not_yet_derived": true,
+    "registration_index_not_identified_with_delta_f": true,
+    "signed_block_sign_not_identified_with_delta_f": true,
+    "wedge_census_not_yet_run": true
+  },
+  "checks": {
+    "201BD_passed": true,
+    "201FR_passed": true,
+    "201FS_passed": true,
+    "Audit014_passed": true,
+    "FP7_passed": true,
+    "all_event_sides_match_exact_signed_blocks": true,
+    "each_signed_block_has_unique_event_anchor_label": true,
+    "event_side_count_48": true,
+    "every_bare_incidence_supports_both_registrations": true,
+    "every_block_occurs_once_per_registration": true,
+    "every_signed_block_occurs_twice": true,
+    "four_signed_modes_per_carrier": true,
+    "local_order_parameter_state_count_12": true,
+    "local_state_count_is_two_per_face": true,
+    "one_wing_incidence_count_120": true,
+    "outward_is_exact_positive_block_side": true,
+    "phase_decorated_domain_expected_count_240": true,
+    "positive_and_negative_anchor_label_sets_match_per_face": true,
+    "registered_event_row_count_24": true,
+    "registered_pairings_stay_inside_face_carrier": true,
+    "registration0_pairs_same_anchor_modes": true,
+    "registration1_swaps_two_anchor_modes_within_each_face": true,
+    "signed_block_audit_passed": true,
+    "signed_block_count_24": true,
+    "six_face_carriers": true,
+    "twenty_bare_incidences_per_face": true,
+    "two_negative_anchor_modes_per_face": true,
+    "two_positive_anchor_modes_per_face": true
+  },
+  "corrected_eta_domain": {
+    "definition": "{(s,u,B): s in S_12, face(s)=carrier(B), u in B}",
+    "expected_count": 240,
+    "map": "eta_tilde(s,u,B) = (s,m_B)",
+    "name": "I_F_tilde"
+  },
+  "earned_statement": "The registered-event crosswalk closes the native mode-object half of the preparation interface. Every one of the 48 inward/outward event sides matches one of the 24 signed face blocks exactly; every signed block occurs twice, once in each registered seam sector, and carries one unique event-anchor label. Each face therefore has exactly four native signed mode objects, two positive and two negative. The two registered seam sectors pair those objects differently: registration 0 pairs equal anchor labels while registration 1 swaps the two anchor labels inside each face. Crucially, every one of the 120 bare boundary incidences is compatible with both registrations. Program-01 independently supplies a binary local relative-complex-orientation state on each of six faces. Therefore the bare incidence domain I_F does not by itself carry the independent phase state needed for the EPR projective-line map. The correct native preparation domain is the phase-decorated incidence domain I_F_tilde with expected size 240.",
+  "local_phase_interface": {
+    "face_count": 6,
+    "local_order_parameter_state_count": 12,
+    "source": "Program-01 phase character delta_f = chi_deck restricted to Stab(f)",
+    "states_per_face": 2
+  },
+  "native_mode_objects": {
+    "face_count": 6,
+    "mode_identifier": "exact signed face block, equivalently sign plus its unique event-anchor label inside the carrier",
+    "negative_modes_per_face": 2,
+    "positive_modes_per_face": 2,
+    "signed_modes_per_face": 4
+  },
+  "next_gate": "Recover the explicit twelve local phase-state rows from the current Program-01 face-field checkpoint 201FK, not from historical 201FN matrices. Construct the 240-row phase-decorated incidence domain and then derive the projective line map ell for its four native mode objects per face.",
+  "registered_event_crosswalk": {
+    "event_row_count": 24,
+    "event_side_count": 48,
+    "occurrences_per_signed_block": 2,
+    "registration0_mode_pairing": "same-anchor",
+    "registration1_mode_pairing": "within-face anchor swap",
+    "registration_support_per_signed_block": [
+      0,
+      1
+    ],
+    "signed_block_count": 24
+  },
+  "verdict": "registered_event_crosswalk_recovers_exact_four_mode_objects_per_face_but_bare_I_F_does_not_carry_the_independent_local_phase_state_so_eta_requires_a_phase_decorated_240_row_domain",
+  "version": 1
+}
